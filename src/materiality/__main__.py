@@ -1,3 +1,3 @@
-from materiality.cli import main
+from sustainkit.materiality.cli import main
 
 raise SystemExit(main())

@@ -1,6 +1,6 @@
-# Method
+# `sustainkit.materiality`: method
 
-This page explains exactly how `materiality-matrix` turns inputs into scores,
+This page explains exactly how `sustainkit.materiality` turns inputs into scores,
 and which parts come from the standards versus which are choices made by this
 tool. All scores use a 1-5 scale; likelihood-weighted scores can fall below 1.
 

@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from materiality.schema import (
+from sustainkit.materiality.schema import (
     ValidationError,
     check,
     normalise_survey,
@@ -93,7 +93,7 @@ def load(path: str | Path, rating_scale: int = 5) -> MaterialityData:
 
 def example_path() -> Path:
     """Path of the bundled fictional example workbook."""
-    return Path(str(resources.files("materiality") / "data" / "example" / "example_assessment.xlsx"))
+    return Path(str(resources.files("sustainkit.materiality") / "data" / "example" / "example_assessment.xlsx"))
 
 
 def load_example() -> MaterialityData:

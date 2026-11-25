@@ -1,58 +1,74 @@
 # Roadmap
 
-Planned additions, roughly in order. Each item is meant to be a self-contained
-release with tests and docs. Order may change with feedback; suggestions welcome in issues.
+`sustainkit` grows by one feature at a time, each a self-contained release
+with tests and docs. Order may change with feedback; suggestions are welcome
+in issues. Planned modules are listed in the README.
 
-## Assessment core
-1. IRO register: impacts, risks and opportunities as separate rows linked to a topic, rolled up to topic scores (ESRS 1 chapter 3).
-2. Alternative severity rules: max, weighted mean, and "any criterion" rule (ESRS 1 AR 11).
-3. Time-horizon views: short / medium / long matrices and a horizon filter.
-4. Value-chain views: upstream / own operations / downstream breakdown.
-5. Gross vs net (before / after mitigation) scoring with a two-point arrow plot.
-6. Simplified ESRS taxonomy option alongside ESRS Set 1.
-7. Full ESRS AR 16 sub-sub-topics and entity-specific topic helpers.
-8. GRI 3 and ISSB/SASB-style topic crosswalk tables (sourced).
-9. Year-over-year comparison: movement arrows between two assessments.
-10. Threshold calibration helpers: show how many topics are material at each threshold.
+## ghg (available: Scope 1 and 2)
+1. Scope 3 categories 1-15 scaffolding with spend- and activity-based methods (sourced factors only).
+2. Scope 3 business travel and employee commuting (UK 2025 Scope 3 factors).
+3. Well-to-tank and transmission-and-distribution factors (UK 2025).
+4. Multi-year factor sets (2023-2025) and automatic year selection by period.
+5. Intensity metrics (t CO2e per revenue, FTE, unit produced) and base-year recalculation.
+6. Data-quality scores per activity row and an uncertainty range for totals.
+7. Custom country grid factors from cited public sources.
+8. Excel inventory export with factor audit trail.
 
-## Uncertainty and robustness
-11. Monte-Carlo sensitivity: sample ratings and weights, report the probability each topic is material.
-12. Bootstrap confidence ellipses for survey-driven scores.
-13. Tornado chart: which input moves each topic's rank most.
-14. Stakeholder-weight sensitivity sweep and "what weights would flip this topic" solver.
-15. Inter-rater agreement statistics (e.g. Krippendorff's alpha) per topic and group.
+## materiality (available)
+9. IRO register (impacts, risks, opportunities) rolled up to topics.
+10. Monte-Carlo sensitivity: probability each topic is material.
+11. Alternative severity rules (ESRS 1 AR 11), time-horizon and value-chain views.
+12. Simplified ESRS taxonomy option; year-over-year movement arrows.
+13. Survey importers (wide format, Google/Microsoft Forms exports) and quality checks.
+14. Rule-based (LLM-free) mapping of free-text topics to ESRS topics.
 
-## Surveys
-16. Wide-format survey import (one column per topic) and auto-reshape.
-17. Importers for exported Google Forms / Microsoft Forms / SurveyMonkey / Qualtrics CSVs.
-18. Survey response-quality checks: straight-lining, speeders, missing-ness.
-19. Survey design helper: generate a questionnaire from the topic list.
+## stakeholders
+15. Stakeholder register and influence x interest map (plot + quadrant strategies).
+16. Engagement plan and communication plan tables with schedule export.
+17. Link stakeholder groups to materiality survey weights.
 
-## Text and mapping (rule-based, no LLM)
-20. Map free-text topic names to ESRS topics with keyword and fuzzy matching, with scores and explanations.
-21. Map an existing risk register to ESRS topics.
-22. Glossary of ESRS terms with sources.
+## kpis
+18. KPI library (E/S/G) with units, definitions and ESRS/GRI references.
+19. Multi-year data log with year-on-year change, validation and charts.
+20. Targets and trajectories (linear and science-based-style paths, labelled as tool choices).
+21. KPI selection scoring (relevance, measurability, data availability).
 
-## Outputs
-23. Streamlit app: upload a workbook, tune thresholds and weights live, download outputs.
-24. Report export to Word (.docx) with matrix, ranked table and method appendix.
-25. Report export to PDF.
-26. PowerPoint slide export of the matrix.
-27. Excel export with formatted scores and a matrix chart sheet.
-28. Plot themes (print, dark, colour-blind-safe) and bubble-size options.
-29. Label strategies: numbered markers with side legend for dense matrices.
-30. Bar / lollipop charts by pillar and ESRS standard.
-31. Heatmap of group-by-topic ratings.
+## energy
+22. Energy baseline from meter/bill data, normalised by degree days.
+23. Saving-measure appraisal: simple payback, NPV, IRR.
+24. Marginal abatement cost curve combining energy and GHG modules.
 
-## Benchmarks and data
-32. Benchmarks against published CSRD sustainability statements: material topics by sector (from public reports, cited per report).
-33. Sector starter topic lists with sources.
-34. More example datasets (all clearly fictional) for different sectors.
+## water
+25. Site water balance (withdrawal, consumption, discharge) and intensity.
+26. Water-stress flagging from user-supplied, cited basin data.
 
-## Engineering
-35. JSON Schema for inputs and a `materiality schema` command.
-36. Config files (YAML/TOML) for repeatable runs.
-37. Documentation site with tutorials.
-38. PyPI release and conda-forge recipe.
-39. Type hints throughout and strict mypy.
-40. Performance for large surveys (10k+ responses).
+## circularity, impact, social, governance, checklists
+27. Generic checklist engine (status, evidence, owner, completeness, gap list).
+28. Circular-economy self-assessment scoring by life-cycle stage.
+29. Environmental impact screening (inputs/outputs, severity, improvement priorities).
+30. Social / human-rights due-diligence checklist scoring.
+31. ESG governance maturity score with radar chart.
+
+## supplychain
+32. Supplier register with risk screening by country and commodity (cited indices only).
+33. Supplier engagement tracker.
+
+## actions, risk, regwatch
+34. Action plan / initiative tracker with owners, deadlines and expected impact.
+35. Sustainability risk register with likelihood x impact heatmap.
+36. Trend (PESTLE-style) analysis table and chart.
+37. Regulatory watchlist with deadlines, applicability tests and calendar export.
+
+## disclosure and reporting
+38. ESRS disclosure-requirement index with completeness tracking.
+39. GRI content index generator.
+40. Word (.docx) report export across modules.
+41. PDF and slide export.
+42. Excel workbook export with all module outputs.
+
+## app and engineering
+43. Streamlit app over all modules.
+44. YAML/TOML project config to run every module in one command.
+45. Docs site with tutorials and notebook gallery.
+46. JSON Schemas for all inputs.
+47. PyPI release.

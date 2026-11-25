@@ -14,7 +14,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-OUT = Path(__file__).resolve().parents[1] / "src" / "materiality" / "data" / "example"
+OUT = Path(__file__).resolve().parents[1] / "src" / "sustainkit" / "materiality" / "data" / "example"
 SEED = 2026
 
 # topic_id, topic, esrs, subtopic, impact_type, scale, scope, irremediability,

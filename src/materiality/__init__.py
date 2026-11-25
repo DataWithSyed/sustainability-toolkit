@@ -1,33 +1,20 @@
-"""materiality: double materiality assessments and matrices in Python.
+"""Backwards-compatible alias for :mod:`sustainkit.materiality`.
 
-Load topic assessments and stakeholder survey data from Excel or CSV,
-score impact and financial materiality in the style of ESRS 1 (CSRD),
-and draw publication-quality and interactive materiality matrices.
+``import materiality`` keeps working for code written against
+materiality-matrix 0.1; new code should use ``sustainkit.materiality``.
 """
 
-from materiality.io import (
-    MaterialityData,
-    load,
-    load_classic_matrix,
-    load_csv_dir,
-    load_example,
-    load_excel,
-)
-from materiality.schema import ValidationError, validate
-from materiality.scoring import ScoringConfig, score, score_classic
+import sys as _sys
 
-__all__ = [
-    "MaterialityData",
-    "ScoringConfig",
-    "ValidationError",
-    "load",
-    "load_classic_matrix",
-    "load_csv_dir",
-    "load_example",
-    "load_excel",
-    "score",
-    "score_classic",
-    "validate",
-]
+from sustainkit import materiality as _m
+from sustainkit.materiality import *  # noqa: F401,F403
+from sustainkit.materiality import __all__, __version__  # noqa: F401
+from sustainkit.materiality import cli, io, plot, report, schema, scoring, taxonomy, text
 
-__version__ = "0.1.0"
+for _name, _mod in {
+    "cli": cli, "io": io, "plot": plot, "report": report, "schema": schema,
+    "scoring": scoring, "taxonomy": taxonomy, "text": text,
+}.items():
+    _sys.modules[f"materiality.{_name}"] = _mod
+
+del _m

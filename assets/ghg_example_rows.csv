@@ -1,0 +1,10 @@
+id,site,period,activity,quantity,unit,factor_unit,quantity_in_factor_unit,scope,level1,level2,level3,level4,variant,factor_id,factor_kg_co2e,kg_co2e,kg_co2,kg_ch4_co2e,kg_n2o_co2e,biogenic_kg_co2,market_kg_co2e,note
+A1,Plant North,2025,Natural gas,1.2e+06,kWh (Gross CV),kWh (Gross CV),1.2e+06,Scope 1,Fuels,Gaseous fuels,Natural gas,,,1_100_1004_6,0.18296,219552,219108,336,108,,,FICTIONAL example - boilers
+A2,Plant South,2025,Natural gas,450000,kWh (Gross CV),kWh (Gross CV),450000,Scope 1,Fuels,Gaseous fuels,Natural gas,,,1_100_1004_6,0.18296,82332,82165.5,126,40.5,,,FICTIONAL example - boilers
+A3,Plant North,2025,Diesel (average biofuel blend),18000,litres,litres,18000,Scope 1,Fuels,Liquid fuels,Diesel (average biofuel blend),,,1_101_1011_8,2.57082,46274.8,45677.3,5.22,592.2,2520,,FICTIONAL example - forklifts and backup generator
+A4,Plant North,2025,Wood pellets,40,tonnes,tonnes,40,Scope 1,Bioenergy,Biomass,Wood pellets,,,2_104_1045_15,55.1939,2207.76,,,,67087.2,,FICTIONAL example - biomass boiler
+A5,Fleet,2025,Medium car,85000,km,km,85000,Scope 1,Passenger vehicles,Cars (by size),Medium car,,Diesel,4_301_3053_4,0.17174,14597.9,14455.1,0.394128,141.95,,,FICTIONAL example - company cars
+A6,Fleet,2025,Average (up to 3.5 tonnes),62000,km,km,62000,Scope 1,Delivery vehicles,Vans,Average (up to 3.5 tonnes),,Diesel,5_303_3102_4,0.25561,15847.8,15744.9,0.301368,102.3,,,FICTIONAL example - delivery vans
+A7,Plant North,2025,R410A,6,kg,kg,6,Scope 1,Refrigerant & other,Blends,R410A,,Emissions including only Kyoto products,3_201_2156_3,1924,11544,,,,,,FICTIONAL example - refrigerant top-up (leakage)
+A8,Plant North,2025,Electricity: UK,2100,MWh,kWh,2.1e+06,Scope 2,UK electricity,Electricity generated,Electricity: UK,kWh,,7_400_4000_5,0.177,371700,367269,1890,2562,,0,FICTIONAL example - renewable tariff with certificates (market factor 0)
+A9,Plant South,2025,Electricity: UK,650000,kWh,kWh,650000,Scope 2,UK electricity,Electricity generated,Electricity: UK,kWh,,7_400_4000_5,0.177,115050,113678,585,793,,,FICTIONAL example - no contractual instrument recorded

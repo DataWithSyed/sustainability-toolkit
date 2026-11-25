@@ -1,9 +1,9 @@
 import pandas as pd
 import pytest
 
-from materiality import ValidationError, validate
-from materiality.schema import check, normalise_topics
-from materiality.taxonomy import ESRS_TOPICS, is_known_code, pillar_for
+from sustainkit.materiality import ValidationError, validate
+from sustainkit.materiality.schema import check, normalise_topics
+from sustainkit.materiality.taxonomy import ESRS_TOPICS, is_known_code, pillar_for
 
 
 def test_taxonomy_has_ten_topical_standards():

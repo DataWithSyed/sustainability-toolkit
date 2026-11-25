@@ -1,13 +1,13 @@
 import pandas as pd
 import pytest
 
-from materiality import load, load_classic_matrix, load_example, score, score_classic
-from materiality.cli import main
-from materiality.io import example_path
-from materiality.plot import plot_interactive, plot_matrix
-from materiality.report import to_markdown
-from materiality.schema import ValidationError
-from materiality.text import guess_pillar
+from sustainkit.materiality import load, load_classic_matrix, load_example, score, score_classic
+from sustainkit.materiality.cli import main
+from sustainkit.materiality.io import example_path
+from sustainkit.materiality.plot import plot_interactive, plot_matrix
+from sustainkit.materiality.report import to_markdown
+from sustainkit.materiality.schema import ValidationError
+from sustainkit.materiality.text import guess_pillar
 
 
 def test_example_loads_and_is_labelled_fictional():

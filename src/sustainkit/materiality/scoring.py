@@ -28,7 +28,7 @@ from dataclasses import dataclass, field
 import numpy as np
 import pandas as pd
 
-from materiality.io import MaterialityData
+from sustainkit.materiality.io import MaterialityData
 
 SCALE_MAX = 5.0
 
@@ -246,7 +246,7 @@ def score_classic(classic: pd.DataFrame, threshold: float = 3.0) -> pd.DataFrame
         }
     )
     try:
-        from materiality.text import guess_pillar
+        from sustainkit.materiality.text import guess_pillar
 
         out["pillar"] = [guess_pillar(x) for x in out["topic"]]
     except Exception:  # pragma: no cover - optional helper

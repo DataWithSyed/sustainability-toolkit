@@ -7,8 +7,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from materiality.scoring import SCALE_MAX, ScoringConfig
-from materiality.taxonomy import PILLARS
+from sustainkit.materiality.scoring import SCALE_MAX, ScoringConfig
+from sustainkit.materiality.taxonomy import PILLARS
 
 PILLAR_COLOURS = {"E": "#2E8B57", "S": "#D9822B", "G": "#3B5BA9"}
 QUADRANT_FILL = {
@@ -182,11 +182,11 @@ def plot_interactive(
     title: str = "Double materiality matrix",
     config: ScoringConfig | None = None,
 ):
-    """Interactive Plotly matrix with hover details. Needs ``pip install materiality-matrix[interactive]``."""
+    """Interactive Plotly matrix with hover details. Needs ``pip install sustainkit[interactive]``."""
     try:
         import plotly.graph_objects as go
     except ImportError as exc:  # pragma: no cover
-        raise ImportError("plotly is required: pip install 'materiality-matrix[interactive]'") from exc
+        raise ImportError("plotly is required: pip install 'sustainkit[interactive]'") from exc
 
     cfg = config or scored.attrs.get("config") or ScoringConfig()
     method = scored.attrs.get("method", "double")

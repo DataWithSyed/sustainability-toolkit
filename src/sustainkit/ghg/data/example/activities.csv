@@ -1,0 +1,10 @@
+id,site,period,activity,quantity,unit,level1,level2,variant,market_factor,note
+A1,Plant North,2025,Natural gas,1200000,kWh (Gross CV),,,,,FICTIONAL example - boilers
+A2,Plant South,2025,Natural gas,450000,kWh (Gross CV),,,,,FICTIONAL example - boilers
+A3,Plant North,2025,Diesel (average biofuel blend),18000,litres,Fuels,,,,FICTIONAL example - forklifts and backup generator
+A4,Plant North,2025,Wood pellets,40,tonnes,,,,,FICTIONAL example - biomass boiler
+A5,Fleet,2025,Medium car,85000,km,,Cars (by size),Diesel,,FICTIONAL example - company cars
+A6,Fleet,2025,Average (up to 3.5 tonnes),62000,km,,Vans,Diesel,,FICTIONAL example - delivery vans
+A7,Plant North,2025,R410A,6,kg,,,Emissions including only Kyoto products,,FICTIONAL example - refrigerant top-up (leakage)
+A8,Plant North,2025,Electricity: UK,2100,MWh,,,,0,FICTIONAL example - renewable tariff with certificates (market factor 0)
+A9,Plant South,2025,Electricity: UK,650000,kWh,,,,,FICTIONAL example - no contractual instrument recorded

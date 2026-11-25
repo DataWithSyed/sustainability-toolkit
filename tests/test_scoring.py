@@ -3,9 +3,9 @@ import math
 import pandas as pd
 import pytest
 
-from materiality import ScoringConfig, score
-from materiality.io import MaterialityData, _build
-from materiality.scoring import aggregate_survey, impact_assessment, rescale
+from sustainkit.materiality import ScoringConfig, score
+from sustainkit.materiality.io import MaterialityData, _build
+from sustainkit.materiality.scoring import aggregate_survey, impact_assessment, rescale
 
 
 def data(topics, survey=None, weights=None, scale=5):

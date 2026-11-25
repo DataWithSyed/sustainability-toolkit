@@ -7,11 +7,11 @@ import shutil
 import sys
 from pathlib import Path
 
-from materiality import __version__
-from materiality.io import example_path, load, load_classic_matrix
-from materiality.report import to_markdown, write_outputs
-from materiality.schema import ValidationError
-from materiality.scoring import ScoringConfig, score, score_classic
+from sustainkit.materiality import __version__
+from sustainkit.materiality.io import example_path, load, load_classic_matrix
+from sustainkit.materiality.report import to_markdown, write_outputs
+from sustainkit.materiality.schema import ValidationError
+from sustainkit.materiality.scoring import ScoringConfig, score, score_classic
 
 
 def _add_scoring_args(p: argparse.ArgumentParser) -> None:
@@ -58,12 +58,12 @@ def _config(args) -> ScoringConfig:
 def _emit(scored, args, default_title: str) -> None:
     title = args.title or default_title
     if args.out:
-        from materiality.plot import plot_matrix
+        from sustainkit.materiality.plot import plot_matrix
 
         plot_matrix(scored, args.out, title=title)
         print(f"wrote {args.out}")
     if args.html:
-        from materiality.plot import plot_interactive
+        from sustainkit.materiality.plot import plot_interactive
 
         plot_interactive(scored, args.html, title=title)
         print(f"wrote {args.html}")
@@ -131,7 +131,7 @@ def cmd_template(args) -> int:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(prog="materiality", description="Double materiality matrices from Excel/CSV.")
+    p = argparse.ArgumentParser(prog="materiality", description="Double materiality matrices from Excel/CSV (sustainkit.materiality).")
     p.add_argument("--version", action="version", version=f"%(prog)s {__version__}")
     sub = p.add_subparsers(dest="command", required=True)
 

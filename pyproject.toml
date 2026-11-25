@@ -3,14 +3,14 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "materiality-matrix"
-version = "0.1.0"
-description = "Double materiality assessments (ESRS/CSRD style) and materiality matrices from Excel or CSV, in Python."
+name = "sustainkit"
+version = "0.2.0"
+description = "An open-source Python sustainability management toolkit: double materiality, GHG accounting (Scope 1 and 2) and more."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Syed (DataWithSyed)" }]
-keywords = ["materiality", "double-materiality", "csrd", "esrs", "esg", "sustainability", "gri", "matrix"]
+keywords = ["sustainability", "ghg", "carbon-accounting", "scope-1", "scope-2", "materiality", "double-materiality", "csrd", "esrs", "esg", "gri", "matrix"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",
@@ -26,17 +26,19 @@ interactive = ["plotly>=5.15"]
 dev = ["pytest>=7", "plotly>=5.15"]
 
 [project.scripts]
-materiality = "materiality.cli:main"
+sustainkit = "sustainkit.cli:main"
+materiality = "sustainkit.materiality.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/DataWithSyed/materiality-matrix"
-Issues = "https://github.com/DataWithSyed/materiality-matrix/issues"
+Homepage = "https://github.com/DataWithSyed/sustainability-toolkit"
+Issues = "https://github.com/DataWithSyed/sustainability-toolkit/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.package-data]
-materiality = ["data/example/*.xlsx", "data/example/*.csv", "data/example/*.md", "data/example/csv/*.csv"]
+"sustainkit.materiality" = ["data/example/*.xlsx", "data/example/*.csv", "data/example/*.md", "data/example/csv/*.csv"]
+"sustainkit.ghg" = ["data/*.csv", "data/example/*.csv", "data/example/*.md"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

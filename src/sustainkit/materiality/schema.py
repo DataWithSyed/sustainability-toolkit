@@ -17,7 +17,7 @@ from dataclasses import dataclass
 
 import pandas as pd
 
-from materiality.taxonomy import ENTITY_SPECIFIC, is_known_code, pillar_for
+from sustainkit.materiality.taxonomy import ENTITY_SPECIFIC, is_known_code, pillar_for
 
 IMPACT_TYPES = (
     "actual_negative",
