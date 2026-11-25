@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "materiality-matrix"
+version = "0.1.0"
+description = "Double materiality assessments (ESRS/CSRD style) and materiality matrices from Excel or CSV, in Python."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Syed (DataWithSyed)" }]
+keywords = ["materiality", "double-materiality", "csrd", "esrs", "esg", "sustainability", "gri", "matrix"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Office/Business",
+]
+dependencies = ["pandas>=1.5", "numpy>=1.23", "matplotlib>=3.6", "openpyxl>=3.1"]
+
+[project.optional-dependencies]
+interactive = ["plotly>=5.15"]
+dev = ["pytest>=7", "plotly>=5.15"]
+
+[project.scripts]
+materiality = "materiality.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/DataWithSyed/materiality-matrix"
+Issues = "https://github.com/DataWithSyed/materiality-matrix/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+materiality = ["data/example/*.xlsx", "data/example/*.csv", "data/example/*.md", "data/example/csv/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

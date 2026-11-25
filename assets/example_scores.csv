@@ -1,0 +1,20 @@
+rank,topic_id,topic,esrs,pillar,impact_score,financial_score,quadrant,material,severity,impact_likelihood_used,impact_assessed,financial_assessed,survey_impact,survey_financial,n_responses,n_groups,group_spread
+1,E1-MIT,GHG emissions from operations and energy use,E1,E,3.9420,3.8922,double,True,4.0000,1.0000,4.0000,3.6000,3.8068,4.5740,31,6,0.9524
+2,S1-HS,Occupational health and safety,S1,S,4.3694,1.9692,impact,True,4.3333,1.0000,4.3333,1.5000,4.4537,3.0641,34,6,0.8333
+3,S2-FOR,Forced labour risk in raw-material supply,S2,S,4.2665,1.7418,impact,True,4.3333,1.0000,4.3333,1.2000,4.1106,3.0061,34,6,1.2500
+4,E1-ENE,Energy consumption and efficiency,E1,E,2.6564,3.6306,financial,True,2.6667,1.0000,2.6667,3.2000,2.6325,4.6354,31,6,1.5455
+5,E5-INF,Virgin metal and plastic inputs,E5,E,3.3061,2.6291,impact,True,3.3333,1.0000,3.3333,2.1000,3.2424,3.8636,32,6,2.0000
+6,S1-TRN,Training and skills development,S1,S,3.0175,2.2329,impact,True,3.0000,1.0000,3.0000,1.8000,3.0582,3.2431,33,6,1.5000
+7,E1-ADA,Physical climate risk to plants,E1,E,1.7406,2.9654,not material,False,2.6667,0.5000,1.3333,2.4000,2.6908,4.2848,31,6,2.3333
+8,S4-SAF,Product safety for end-users,S4,S,1.6050,2.7234,not material,False,3.6667,0.2000,0.7333,2.0000,3.6388,4.4113,33,6,1.2500
+9,S1-EQ,Gender equality and equal pay,S1,S,2.6771,1.3018,not material,False,2.6667,1.0000,2.6667,1.0000,2.7015,2.0061,37,6,0.8000
+10,E3-WAT,Water withdrawal in water-stressed sites,E3,E,2.6745,1.1082,not material,False,2.6667,1.0000,2.6667,0.8000,2.6926,1.8272,35,6,1.1429
+11,E2-SOC,Substances of concern in products,E2,E,1.9027,2.1712,not material,False,3.3333,0.4000,1.3333,1.8000,3.2313,3.0374,25,6,1.5000
+12,E2-AIR,Air emissions from coating lines,E2,E,2.3536,1.3136,not material,False,2.3333,1.0000,2.3333,1.0000,2.4009,2.0455,32,6,1.3333
+13,E5-WST,Production waste and scrap,E5,E,2.0250,1.4559,not material,False,2.0000,1.0000,2.0000,1.2000,2.0833,2.0530,36,6,1.1667
+14,G1-SUP,Supplier relationships and payment practices,G1,G,2.0225,1.3470,not material,False,2.0000,1.0000,2.0000,1.0000,2.0750,2.1568,32,6,1.2500
+15,G1-COR,Corruption and bribery,G1,G,1.0957,1.8681,not material,False,2.3333,0.2000,0.4667,1.2000,2.5633,3.4271,33,6,1.0000
+16,S4-PRI,Customer data privacy,S4,S,1.3530,1.6102,not material,False,2.6667,0.3000,0.8000,1.2000,2.6434,2.5672,31,6,1.2000
+17,S3-COM,"Local community nuisance (noise, traffic)",S3,S,1.7339,0.6761,not material,False,1.6667,1.0000,1.6667,0.4000,1.8909,1.3205,33,6,1.1000
+18,E4-LND,Land use and biodiversity near sites,E4,E,1.5351,0.6362,not material,False,2.6667,0.3000,0.8000,0.3000,3.2503,1.4208,31,6,1.8333
+19,G1-WHB,Protection of whistle-blowers,G1,G,1.0742,0.9723,not material,False,2.0000,0.3000,0.6000,0.6000,2.1807,1.8409,35,6,0.8333

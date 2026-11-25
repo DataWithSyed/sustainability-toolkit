@@ -1,0 +1,7 @@
+stakeholder_group,weight
+Employees,1.0
+Customers,1.0
+Investors,1.0
+Suppliers,0.75
+Local community,1.0
+NGOs,0.75

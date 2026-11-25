@@ -1,0 +1,620 @@
+respondent_id,stakeholder_group,topic_id,impact_rating,financial_rating
+EMP-01,Employees,E1-MIT,4,3
+EMP-01,Employees,E1-ADA,3,4
+EMP-01,Employees,E2-AIR,2,2
+EMP-01,Employees,E4-LND,3,1
+EMP-01,Employees,E5-INF,3,4
+EMP-01,Employees,E5-WST,1,2
+EMP-01,Employees,S1-HS,4,3
+EMP-01,Employees,S1-EQ,4,1
+EMP-01,Employees,S1-TRN,2,3
+EMP-01,Employees,S2-FOR,5,3
+EMP-01,Employees,S4-PRI,3,2
+EMP-01,Employees,S4-SAF,4,5
+EMP-01,Employees,G1-COR,2,3
+EMP-01,Employees,G1-WHB,3,2
+EMP-01,Employees,G1-SUP,2,4
+EMP-02,Employees,E1-MIT,4,5
+EMP-02,Employees,E1-ADA,2,5
+EMP-02,Employees,E1-ENE,3,5
+EMP-02,Employees,E2-AIR,4,2
+EMP-02,Employees,E3-WAT,2,1
+EMP-02,Employees,E4-LND,4,1
+EMP-02,Employees,E5-INF,3,4
+EMP-02,Employees,E5-WST,2,4
+EMP-02,Employees,S1-HS,5,3
+EMP-02,Employees,S1-EQ,2,3
+EMP-02,Employees,S1-TRN,4,3
+EMP-02,Employees,S2-FOR,4,3
+EMP-02,Employees,S4-PRI,2,2
+EMP-02,Employees,S4-SAF,3,5
+EMP-02,Employees,G1-WHB,1,1
+EMP-02,Employees,G1-SUP,4,2
+EMP-03,Employees,E1-MIT,3,4
+EMP-03,Employees,E1-ADA,3,5
+EMP-03,Employees,E1-ENE,4,5
+EMP-03,Employees,E2-AIR,3,2
+EMP-03,Employees,E2-SOC,3,1
+EMP-03,Employees,E3-WAT,2,2
+EMP-03,Employees,E4-LND,2,2
+EMP-03,Employees,E5-INF,4,4
+EMP-03,Employees,E5-WST,2,3
+EMP-03,Employees,S1-HS,5,3
+EMP-03,Employees,S1-EQ,3,1
+EMP-03,Employees,S1-TRN,2,4
+EMP-03,Employees,S2-FOR,4,4
+EMP-03,Employees,S3-COM,3,1
+EMP-03,Employees,S4-PRI,4,2
+EMP-03,Employees,S4-SAF,4,4
+EMP-03,Employees,G1-COR,4,4
+EMP-03,Employees,G1-WHB,2,1
+EMP-03,Employees,G1-SUP,2,1
+EMP-04,Employees,E1-MIT,3,5
+EMP-04,Employees,E1-ADA,3,5
+EMP-04,Employees,E1-ENE,5,5
+EMP-04,Employees,E2-AIR,5,1
+EMP-04,Employees,E4-LND,4,1
+EMP-04,Employees,E5-INF,3,5
+EMP-04,Employees,E5-WST,1,3
+EMP-04,Employees,S1-HS,5,5
+EMP-04,Employees,S1-EQ,3,3
+EMP-04,Employees,S1-TRN,4,4
+EMP-04,Employees,S2-FOR,4,1
+EMP-04,Employees,S3-COM,2,1
+EMP-04,Employees,S4-PRI,3,3
+EMP-04,Employees,S4-SAF,3,5
+EMP-04,Employees,G1-COR,3,3
+EMP-04,Employees,G1-WHB,2,2
+EMP-05,Employees,E1-MIT,4,5
+EMP-05,Employees,E1-ADA,3,4
+EMP-05,Employees,E1-ENE,4,4
+EMP-05,Employees,E2-SOC,4,3
+EMP-05,Employees,E3-WAT,2,1
+EMP-05,Employees,E4-LND,2,1
+EMP-05,Employees,E5-INF,3,4
+EMP-05,Employees,E5-WST,2,2
+EMP-05,Employees,S1-HS,4,3
+EMP-05,Employees,S1-EQ,4,3
+EMP-05,Employees,S1-TRN,2,4
+EMP-05,Employees,S2-FOR,5,4
+EMP-05,Employees,S3-COM,3,2
+EMP-05,Employees,S4-SAF,4,4
+EMP-05,Employees,G1-COR,2,3
+EMP-05,Employees,G1-WHB,2,1
+EMP-05,Employees,G1-SUP,2,1
+EMP-06,Employees,E1-ENE,4,4
+EMP-06,Employees,E2-AIR,1,1
+EMP-06,Employees,E2-SOC,4,3
+EMP-06,Employees,E3-WAT,2,2
+EMP-06,Employees,E4-LND,3,2
+EMP-06,Employees,E5-INF,4,3
+EMP-06,Employees,E5-WST,2,3
+EMP-06,Employees,S1-HS,5,4
+EMP-06,Employees,S1-EQ,3,1
+EMP-06,Employees,S1-TRN,4,3
+EMP-06,Employees,S2-FOR,4,3
+EMP-06,Employees,S3-COM,2,1
+EMP-06,Employees,S4-PRI,2,3
+EMP-06,Employees,S4-SAF,4,5
+EMP-06,Employees,G1-COR,3,3
+EMP-06,Employees,G1-WHB,3,3
+EMP-06,Employees,G1-SUP,4,2
+EMP-07,Employees,E1-MIT,4,4
+EMP-07,Employees,E1-ADA,3,4
+EMP-07,Employees,E1-ENE,3,4
+EMP-07,Employees,E2-AIR,3,3
+EMP-07,Employees,E2-SOC,3,3
+EMP-07,Employees,E5-INF,3,3
+EMP-07,Employees,E5-WST,2,3
+EMP-07,Employees,S1-HS,5,3
+EMP-07,Employees,S1-EQ,2,2
+EMP-07,Employees,S1-TRN,3,3
+EMP-07,Employees,S2-FOR,4,3
+EMP-07,Employees,S3-COM,2,1
+EMP-07,Employees,S4-PRI,4,3
+EMP-07,Employees,S4-SAF,5,4
+EMP-07,Employees,G1-COR,4,4
+EMP-07,Employees,G1-WHB,4,1
+EMP-07,Employees,G1-SUP,2,1
+EMP-08,Employees,E1-MIT,4,4
+EMP-08,Employees,E1-ADA,4,4
+EMP-08,Employees,E1-ENE,3,4
+EMP-08,Employees,E2-SOC,3,3
+EMP-08,Employees,E3-WAT,4,2
+EMP-08,Employees,E4-LND,4,1
+EMP-08,Employees,E5-INF,5,3
+EMP-08,Employees,E5-WST,2,2
+EMP-08,Employees,S1-HS,4,3
+EMP-08,Employees,S1-EQ,3,3
+EMP-08,Employees,S1-TRN,2,4
+EMP-08,Employees,S3-COM,2,1
+EMP-08,Employees,S4-PRI,2,1
+EMP-08,Employees,S4-SAF,4,5
+EMP-08,Employees,G1-COR,3,4
+EMP-08,Employees,G1-WHB,2,1
+EMP-09,Employees,E1-MIT,5,5
+EMP-09,Employees,E1-ADA,2,5
+EMP-09,Employees,E1-ENE,3,5
+EMP-09,Employees,E2-AIR,4,3
+EMP-09,Employees,E2-SOC,4,2
+EMP-09,Employees,E3-WAT,2,2
+EMP-09,Employees,E4-LND,4,2
+EMP-09,Employees,E5-INF,4,5
+EMP-09,Employees,E5-WST,2,1
+EMP-09,Employees,S1-HS,3,5
+EMP-09,Employees,S1-EQ,3,2
+EMP-09,Employees,S1-TRN,3,3
+EMP-09,Employees,S2-FOR,5,3
+EMP-09,Employees,S3-COM,1,1
+EMP-09,Employees,S4-PRI,4,1
+EMP-09,Employees,S4-SAF,4,4
+EMP-09,Employees,G1-COR,4,4
+EMP-09,Employees,G1-WHB,1,1
+EMP-10,Employees,E1-MIT,2,4
+EMP-10,Employees,E1-ADA,4,5
+EMP-10,Employees,E1-ENE,4,5
+EMP-10,Employees,E2-AIR,3,1
+EMP-10,Employees,E2-SOC,4,2
+EMP-10,Employees,E3-WAT,3,2
+EMP-10,Employees,E4-LND,3,1
+EMP-10,Employees,E5-INF,3,3
+EMP-10,Employees,E5-WST,2,1
+EMP-10,Employees,S1-HS,5,1
+EMP-10,Employees,S1-EQ,2,3
+EMP-10,Employees,S1-TRN,5,4
+EMP-10,Employees,S3-COM,1,1
+EMP-10,Employees,G1-COR,3,3
+EMP-10,Employees,G1-WHB,2,2
+EMP-10,Employees,G1-SUP,3,2
+EMP-11,Employees,E1-MIT,5,5
+EMP-11,Employees,E1-ADA,4,4
+EMP-11,Employees,E1-ENE,3,5
+EMP-11,Employees,E2-AIR,1,2
+EMP-11,Employees,E2-SOC,4,4
+EMP-11,Employees,E3-WAT,1,2
+EMP-11,Employees,E4-LND,3,1
+EMP-11,Employees,E5-INF,3,4
+EMP-11,Employees,E5-WST,1,1
+EMP-11,Employees,S1-HS,5,3
+EMP-11,Employees,S1-EQ,4,1
+EMP-11,Employees,S2-FOR,3,2
+EMP-11,Employees,S3-COM,1,1
+EMP-11,Employees,S4-PRI,2,2
+EMP-11,Employees,S4-SAF,4,5
+EMP-11,Employees,G1-COR,3,5
+EMP-11,Employees,G1-WHB,3,2
+EMP-12,Employees,E1-MIT,4,5
+EMP-12,Employees,E1-ADA,3,5
+EMP-12,Employees,E1-ENE,3,5
+EMP-12,Employees,E2-AIR,2,3
+EMP-12,Employees,E2-SOC,3,2
+EMP-12,Employees,E3-WAT,3,2
+EMP-12,Employees,E4-LND,4,1
+EMP-12,Employees,E5-INF,4,5
+EMP-12,Employees,E5-WST,2,1
+EMP-12,Employees,S1-HS,5,4
+EMP-12,Employees,S1-EQ,3,3
+EMP-12,Employees,S1-TRN,3,4
+EMP-12,Employees,S2-FOR,4,3
+EMP-12,Employees,S3-COM,4,1
+EMP-12,Employees,S4-SAF,4,4
+EMP-12,Employees,G1-COR,2,3
+EMP-12,Employees,G1-WHB,3,1
+EMP-12,Employees,G1-SUP,3,2
+CUS-01,Customers,E1-MIT,4,4
+CUS-01,Customers,E1-ENE,2,5
+CUS-01,Customers,E2-AIR,3,2
+CUS-01,Customers,E4-LND,2,1
+CUS-01,Customers,E5-INF,4,4
+CUS-01,Customers,E5-WST,2,2
+CUS-01,Customers,S1-HS,4,2
+CUS-01,Customers,S1-EQ,3,1
+CUS-01,Customers,S1-TRN,3,3
+CUS-01,Customers,S2-FOR,2,3
+CUS-01,Customers,S3-COM,2,1
+CUS-01,Customers,S4-SAF,3,5
+CUS-01,Customers,G1-COR,2,4
+CUS-01,Customers,G1-WHB,2,2
+CUS-01,Customers,G1-SUP,3,2
+CUS-02,Customers,E1-MIT,5,4
+CUS-02,Customers,E1-ADA,3,4
+CUS-02,Customers,E1-ENE,3,5
+CUS-02,Customers,E2-AIR,4,2
+CUS-02,Customers,E3-WAT,3,2
+CUS-02,Customers,E4-LND,4,1
+CUS-02,Customers,E5-WST,2,1
+CUS-02,Customers,S1-HS,4,4
+CUS-02,Customers,S1-EQ,4,2
+CUS-02,Customers,S1-TRN,3,2
+CUS-02,Customers,S2-FOR,4,3
+CUS-02,Customers,S3-COM,2,1
+CUS-02,Customers,S4-SAF,5,5
+CUS-02,Customers,G1-COR,2,3
+CUS-02,Customers,G1-WHB,2,3
+CUS-02,Customers,G1-SUP,2,1
+CUS-03,Customers,E1-MIT,5,5
+CUS-03,Customers,E1-ADA,4,5
+CUS-03,Customers,E1-ENE,2,5
+CUS-03,Customers,E2-AIR,2,3
+CUS-03,Customers,E2-SOC,1,3
+CUS-03,Customers,E3-WAT,4,2
+CUS-03,Customers,E4-LND,2,2
+CUS-03,Customers,E5-INF,4,2
+CUS-03,Customers,E5-WST,2,4
+CUS-03,Customers,S1-HS,4,3
+CUS-03,Customers,S1-EQ,3,2
+CUS-03,Customers,S3-COM,2,1
+CUS-03,Customers,S4-PRI,4,2
+CUS-03,Customers,G1-COR,2,3
+CUS-03,Customers,G1-WHB,2,2
+CUS-03,Customers,G1-SUP,2,2
+CUS-04,Customers,E1-MIT,3,4
+CUS-04,Customers,E2-SOC,2,3
+CUS-04,Customers,E3-WAT,2,2
+CUS-04,Customers,E5-INF,4,5
+CUS-04,Customers,E5-WST,2,2
+CUS-04,Customers,S1-HS,5,4
+CUS-04,Customers,S1-EQ,3,3
+CUS-04,Customers,S2-FOR,4,3
+CUS-04,Customers,S3-COM,1,2
+CUS-04,Customers,S4-PRI,3,3
+CUS-04,Customers,S4-SAF,3,4
+CUS-04,Customers,G1-COR,3,3
+CUS-04,Customers,G1-WHB,2,1
+CUS-04,Customers,G1-SUP,1,3
+CUS-05,Customers,E1-MIT,4,3
+CUS-05,Customers,E1-ADA,3,3
+CUS-05,Customers,E1-ENE,3,5
+CUS-05,Customers,E2-AIR,2,1
+CUS-05,Customers,E2-SOC,3,4
+CUS-05,Customers,E3-WAT,2,1
+CUS-05,Customers,E4-LND,1,1
+CUS-05,Customers,E5-INF,3,4
+CUS-05,Customers,E5-WST,2,3
+CUS-05,Customers,S1-HS,5,4
+CUS-05,Customers,S1-TRN,2,4
+CUS-05,Customers,S2-FOR,5,4
+CUS-05,Customers,S3-COM,1,1
+CUS-05,Customers,S4-PRI,4,2
+CUS-05,Customers,S4-SAF,2,5
+CUS-05,Customers,G1-COR,2,3
+CUS-05,Customers,G1-SUP,3,1
+CUS-06,Customers,E1-ADA,3,3
+CUS-06,Customers,E2-AIR,3,1
+CUS-06,Customers,E2-SOC,4,3
+CUS-06,Customers,E3-WAT,4,3
+CUS-06,Customers,E4-LND,4,1
+CUS-06,Customers,S1-HS,5,4
+CUS-06,Customers,S1-EQ,3,3
+CUS-06,Customers,S1-TRN,2,3
+CUS-06,Customers,S3-COM,2,2
+CUS-06,Customers,S4-PRI,2,3
+CUS-06,Customers,S4-SAF,2,5
+CUS-06,Customers,G1-COR,2,4
+CUS-06,Customers,G1-WHB,2,3
+CUS-06,Customers,G1-SUP,2,2
+CUS-07,Customers,E1-MIT,5,5
+CUS-07,Customers,E1-ADA,1,5
+CUS-07,Customers,E1-ENE,3,5
+CUS-07,Customers,E2-AIR,3,2
+CUS-07,Customers,E3-WAT,3,2
+CUS-07,Customers,E5-INF,3,4
+CUS-07,Customers,S1-HS,4,2
+CUS-07,Customers,S1-TRN,3,4
+CUS-07,Customers,S3-COM,1,1
+CUS-07,Customers,S4-PRI,2,3
+CUS-07,Customers,G1-WHB,3,2
+CUS-07,Customers,G1-SUP,3,2
+CUS-08,Customers,E1-MIT,4,5
+CUS-08,Customers,E1-ADA,2,5
+CUS-08,Customers,E1-ENE,1,4
+CUS-08,Customers,E2-AIR,1,3
+CUS-08,Customers,E3-WAT,4,3
+CUS-08,Customers,E4-LND,3,1
+CUS-08,Customers,E5-INF,2,4
+CUS-08,Customers,E5-WST,2,2
+CUS-08,Customers,S1-EQ,2,4
+CUS-08,Customers,S1-TRN,3,3
+CUS-08,Customers,S3-COM,2,2
+CUS-08,Customers,S4-PRI,3,1
+CUS-08,Customers,G1-COR,3,4
+CUS-08,Customers,G1-WHB,3,1
+CUS-08,Customers,G1-SUP,2,2
+INV-01,Investors,E1-MIT,3,5
+INV-01,Investors,E2-AIR,1,3
+INV-01,Investors,E2-SOC,3,4
+INV-01,Investors,E3-WAT,2,2
+INV-01,Investors,E4-LND,4,3
+INV-01,Investors,E5-INF,3,5
+INV-01,Investors,E5-WST,1,4
+INV-01,Investors,S1-HS,5,4
+INV-01,Investors,S1-EQ,2,3
+INV-01,Investors,S1-TRN,2,3
+INV-01,Investors,S2-FOR,5,3
+INV-01,Investors,S4-PRI,3,3
+INV-01,Investors,S4-SAF,4,4
+INV-01,Investors,G1-COR,2,4
+INV-01,Investors,G1-SUP,2,3
+INV-02,Investors,E1-MIT,4,4
+INV-02,Investors,E1-ADA,3,5
+INV-02,Investors,E1-ENE,3,5
+INV-02,Investors,E2-SOC,3,2
+INV-02,Investors,E3-WAT,3,2
+INV-02,Investors,E5-WST,2,2
+INV-02,Investors,S1-HS,4,3
+INV-02,Investors,S1-EQ,3,3
+INV-02,Investors,S1-TRN,3,3
+INV-02,Investors,S2-FOR,5,2
+INV-02,Investors,S4-PRI,1,3
+INV-02,Investors,G1-COR,2,3
+INV-02,Investors,G1-WHB,3,3
+INV-02,Investors,G1-SUP,1,2
+INV-03,Investors,E1-ENE,1,5
+INV-03,Investors,E2-AIR,2,3
+INV-03,Investors,E2-SOC,4,3
+INV-03,Investors,E3-WAT,1,3
+INV-03,Investors,E4-LND,2,2
+INV-03,Investors,E5-INF,4,4
+INV-03,Investors,E5-WST,1,2
+INV-03,Investors,S1-HS,5,4
+INV-03,Investors,S1-TRN,2,3
+INV-03,Investors,S2-FOR,3,3
+INV-03,Investors,S3-COM,2,1
+INV-03,Investors,S4-PRI,1,3
+INV-03,Investors,S4-SAF,3,4
+INV-03,Investors,G1-COR,1,4
+INV-03,Investors,G1-WHB,2,3
+INV-03,Investors,G1-SUP,1,3
+INV-04,Investors,E1-MIT,3,5
+INV-04,Investors,E1-ADA,1,4
+INV-04,Investors,E1-ENE,2,4
+INV-04,Investors,E2-AIR,2,1
+INV-04,Investors,E2-SOC,1,4
+INV-04,Investors,E3-WAT,1,3
+INV-04,Investors,E4-LND,3,2
+INV-04,Investors,E5-INF,3,4
+INV-04,Investors,S1-HS,4,2
+INV-04,Investors,S1-EQ,3,2
+INV-04,Investors,S1-TRN,2,4
+INV-04,Investors,S2-FOR,5,2
+INV-04,Investors,S4-PRI,2,3
+INV-04,Investors,S4-SAF,3,5
+INV-04,Investors,G1-COR,4,4
+INV-04,Investors,G1-WHB,2,3
+INV-05,Investors,E1-ADA,1,5
+INV-05,Investors,E1-ENE,3,5
+INV-05,Investors,E2-SOC,3,4
+INV-05,Investors,E3-WAT,3,2
+INV-05,Investors,E4-LND,3,1
+INV-05,Investors,E5-INF,3,3
+INV-05,Investors,E5-WST,3,3
+INV-05,Investors,S1-HS,4,4
+INV-05,Investors,S1-EQ,2,3
+INV-05,Investors,S2-FOR,3,4
+INV-05,Investors,S3-COM,2,2
+INV-05,Investors,S4-PRI,2,3
+INV-05,Investors,S4-SAF,4,4
+INV-05,Investors,G1-COR,1,5
+INV-05,Investors,G1-WHB,2,2
+INV-05,Investors,G1-SUP,2,3
+SUP-01,Suppliers,E1-MIT,4,5
+SUP-01,Suppliers,E5-WST,2,3
+SUP-01,Suppliers,S1-HS,4,4
+SUP-01,Suppliers,S1-EQ,2,2
+SUP-01,Suppliers,S2-FOR,4,2
+SUP-01,Suppliers,S4-PRI,2,2
+SUP-01,Suppliers,G1-WHB,2,2
+SUP-01,Suppliers,G1-SUP,2,2
+SUP-02,Suppliers,E1-ENE,1,5
+SUP-02,Suppliers,E2-AIR,2,2
+SUP-02,Suppliers,E2-SOC,3,5
+SUP-02,Suppliers,E3-WAT,3,1
+SUP-02,Suppliers,E4-LND,3,1
+SUP-02,Suppliers,E5-INF,2,4
+SUP-02,Suppliers,E5-WST,2,2
+SUP-02,Suppliers,S1-HS,5,5
+SUP-02,Suppliers,S1-EQ,2,2
+SUP-02,Suppliers,S2-FOR,5,2
+SUP-02,Suppliers,S3-COM,1,1
+SUP-02,Suppliers,S4-PRI,2,2
+SUP-02,Suppliers,G1-WHB,2,1
+SUP-03,Suppliers,E1-MIT,2,5
+SUP-03,Suppliers,E1-ADA,3,4
+SUP-03,Suppliers,E2-AIR,1,2
+SUP-03,Suppliers,E2-SOC,3,4
+SUP-03,Suppliers,E3-WAT,3,2
+SUP-03,Suppliers,E5-WST,1,3
+SUP-03,Suppliers,S1-EQ,3,1
+SUP-03,Suppliers,S1-TRN,2,3
+SUP-03,Suppliers,S2-FOR,4,2
+SUP-03,Suppliers,S3-COM,1,3
+SUP-03,Suppliers,S4-PRI,3,3
+SUP-03,Suppliers,S4-SAF,5,4
+SUP-03,Suppliers,G1-WHB,1,1
+SUP-04,Suppliers,E1-ADA,1,5
+SUP-04,Suppliers,E3-WAT,3,2
+SUP-04,Suppliers,E4-LND,3,3
+SUP-04,Suppliers,E5-INF,3,3
+SUP-04,Suppliers,E5-WST,1,1
+SUP-04,Suppliers,S1-EQ,3,1
+SUP-04,Suppliers,S1-TRN,4,4
+SUP-04,Suppliers,S2-FOR,5,2
+SUP-04,Suppliers,S3-COM,2,2
+SUP-04,Suppliers,S4-PRI,3,2
+SUP-04,Suppliers,S4-SAF,3,5
+SUP-04,Suppliers,G1-WHB,2,3
+SUP-04,Suppliers,G1-SUP,1,2
+SUP-05,Suppliers,E1-MIT,4,5
+SUP-05,Suppliers,E1-ADA,2,4
+SUP-05,Suppliers,E1-ENE,3,5
+SUP-05,Suppliers,E2-SOC,3,3
+SUP-05,Suppliers,E4-LND,3,1
+SUP-05,Suppliers,E5-INF,2,5
+SUP-05,Suppliers,E5-WST,2,1
+SUP-05,Suppliers,S1-TRN,4,4
+SUP-05,Suppliers,S2-FOR,2,3
+SUP-05,Suppliers,S3-COM,1,2
+SUP-05,Suppliers,G1-COR,3,3
+SUP-05,Suppliers,G1-WHB,1,2
+SUP-06,Suppliers,E1-ADA,4,4
+SUP-06,Suppliers,E1-ENE,2,4
+SUP-06,Suppliers,E2-AIR,2,3
+SUP-06,Suppliers,E3-WAT,3,2
+SUP-06,Suppliers,E4-LND,2,1
+SUP-06,Suppliers,E5-WST,2,1
+SUP-06,Suppliers,S1-HS,4,3
+SUP-06,Suppliers,S1-EQ,1,2
+SUP-06,Suppliers,S1-TRN,4,3
+SUP-06,Suppliers,S2-FOR,3,3
+SUP-06,Suppliers,S3-COM,2,1
+SUP-06,Suppliers,S4-PRI,4,3
+SUP-06,Suppliers,S4-SAF,3,5
+SUP-06,Suppliers,G1-COR,3,4
+SUP-06,Suppliers,G1-WHB,2,2
+SUP-06,Suppliers,G1-SUP,2,2
+LOC-01,Local community,E1-MIT,5,5
+LOC-01,Local community,E1-ADA,2,3
+LOC-01,Local community,E1-ENE,3,5
+LOC-01,Local community,E2-AIR,1,1
+LOC-01,Local community,E2-SOC,4,3
+LOC-01,Local community,E3-WAT,2,2
+LOC-01,Local community,E4-LND,3,1
+LOC-01,Local community,E5-WST,2,1
+LOC-01,Local community,S1-HS,5,3
+LOC-01,Local community,S1-EQ,4,3
+LOC-01,Local community,S2-FOR,4,3
+LOC-01,Local community,S3-COM,1,1
+LOC-01,Local community,S4-PRI,3,3
+LOC-01,Local community,S4-SAF,3,5
+LOC-01,Local community,G1-WHB,1,3
+LOC-01,Local community,G1-SUP,1,2
+LOC-02,Local community,E1-ADA,3,4
+LOC-02,Local community,E2-AIR,3,3
+LOC-02,Local community,E2-SOC,4,3
+LOC-02,Local community,E3-WAT,4,2
+LOC-02,Local community,E5-WST,5,1
+LOC-02,Local community,S1-HS,5,2
+LOC-02,Local community,S1-EQ,2,1
+LOC-02,Local community,S1-TRN,4,3
+LOC-02,Local community,S2-FOR,4,3
+LOC-02,Local community,S3-COM,1,1
+LOC-02,Local community,S4-SAF,3,3
+LOC-02,Local community,G1-WHB,3,1
+LOC-03,Local community,E1-MIT,3,5
+LOC-03,Local community,E1-ENE,3,5
+LOC-03,Local community,E2-AIR,3,2
+LOC-03,Local community,E2-SOC,3,3
+LOC-03,Local community,E3-WAT,3,1
+LOC-03,Local community,E5-INF,3,3
+LOC-03,Local community,E5-WST,2,1
+LOC-03,Local community,S1-HS,5,2
+LOC-03,Local community,S1-EQ,4,2
+LOC-03,Local community,S2-FOR,4,4
+LOC-03,Local community,S3-COM,3,1
+LOC-03,Local community,S4-PRI,2,3
+LOC-03,Local community,S4-SAF,5,4
+LOC-03,Local community,G1-COR,2,3
+LOC-03,Local community,G1-WHB,2,1
+LOC-03,Local community,G1-SUP,2,3
+LOC-04,Local community,E1-ADA,2,4
+LOC-04,Local community,E1-ENE,2,3
+LOC-04,Local community,E2-AIR,4,3
+LOC-04,Local community,E3-WAT,3,1
+LOC-04,Local community,E4-LND,4,1
+LOC-04,Local community,E5-INF,4,4
+LOC-04,Local community,E5-WST,3,2
+LOC-04,Local community,S1-HS,5,3
+LOC-04,Local community,S1-EQ,3,1
+LOC-04,Local community,S1-TRN,5,3
+LOC-04,Local community,S2-FOR,4,3
+LOC-04,Local community,S4-SAF,3,3
+LOC-04,Local community,G1-COR,2,3
+LOC-04,Local community,G1-SUP,2,2
+LOC-05,Local community,E1-MIT,4,5
+LOC-05,Local community,E1-ADA,3,5
+LOC-05,Local community,E1-ENE,4,4
+LOC-05,Local community,E2-AIR,3,1
+LOC-05,Local community,E3-WAT,2,3
+LOC-05,Local community,E4-LND,3,2
+LOC-05,Local community,E5-INF,1,5
+LOC-05,Local community,E5-WST,2,1
+LOC-05,Local community,S1-HS,5,3
+LOC-05,Local community,S1-EQ,1,2
+LOC-05,Local community,S1-TRN,2,4
+LOC-05,Local community,S2-FOR,3,3
+LOC-05,Local community,S4-SAF,4,5
+LOC-05,Local community,G1-COR,3,3
+LOC-05,Local community,G1-SUP,1,1
+LOC-06,Local community,E1-MIT,4,4
+LOC-06,Local community,E1-ENE,1,5
+LOC-06,Local community,E2-AIR,2,3
+LOC-06,Local community,E3-WAT,3,1
+LOC-06,Local community,E4-LND,4,2
+LOC-06,Local community,E5-INF,3,4
+LOC-06,Local community,E5-WST,3,1
+LOC-06,Local community,S1-HS,4,1
+LOC-06,Local community,S1-EQ,3,1
+LOC-06,Local community,S1-TRN,4,2
+LOC-06,Local community,S2-FOR,4,4
+LOC-06,Local community,S3-COM,2,1
+LOC-06,Local community,S4-SAF,4,5
+LOC-06,Local community,G1-COR,3,3
+LOC-06,Local community,G1-WHB,2,2
+LOC-06,Local community,G1-SUP,2,1
+NGO-01,NGOs,E1-MIT,4,5
+NGO-01,NGOs,E1-ADA,4,4
+NGO-01,NGOs,E3-WAT,3,1
+NGO-01,NGOs,E5-INF,5,2
+NGO-01,NGOs,E5-WST,3,2
+NGO-01,NGOs,S1-EQ,2,1
+NGO-01,NGOs,S1-TRN,3,3
+NGO-01,NGOs,S2-FOR,5,4
+NGO-01,NGOs,S3-COM,2,1
+NGO-01,NGOs,S4-PRI,3,3
+NGO-01,NGOs,S4-SAF,5,4
+NGO-01,NGOs,G1-COR,4,3
+NGO-01,NGOs,G1-SUP,2,3
+NGO-02,NGOs,E1-MIT,4,4
+NGO-02,NGOs,E1-ADA,4,5
+NGO-02,NGOs,E1-ENE,3,5
+NGO-02,NGOs,E2-AIR,3,1
+NGO-02,NGOs,E3-WAT,4,1
+NGO-02,NGOs,E4-LND,5,1
+NGO-02,NGOs,E5-INF,5,4
+NGO-02,NGOs,E5-WST,2,2
+NGO-02,NGOs,S1-HS,4,2
+NGO-02,NGOs,S1-EQ,3,1
+NGO-02,NGOs,S1-TRN,3,3
+NGO-02,NGOs,S2-FOR,5,3
+NGO-02,NGOs,S3-COM,2,2
+NGO-02,NGOs,S4-PRI,3,3
+NGO-02,NGOs,S4-SAF,4,4
+NGO-02,NGOs,G1-COR,3,4
+NGO-02,NGOs,G1-SUP,3,3
+NGO-03,NGOs,E1-MIT,4,4
+NGO-03,NGOs,E1-ADA,4,3
+NGO-03,NGOs,E1-ENE,3,4
+NGO-03,NGOs,E2-AIR,3,2
+NGO-03,NGOs,E2-SOC,4,2
+NGO-03,NGOs,E3-WAT,2,1
+NGO-03,NGOs,S1-EQ,2,1
+NGO-03,NGOs,S1-TRN,4,2
+NGO-03,NGOs,S3-COM,3,1
+NGO-03,NGOs,S4-PRI,2,3
+NGO-03,NGOs,S4-SAF,5,5
+NGO-03,NGOs,G1-COR,1,3
+NGO-03,NGOs,G1-WHB,2,1
+NGO-03,NGOs,G1-SUP,3,2
+NGO-04,NGOs,E2-AIR,3,1
+NGO-04,NGOs,E3-WAT,3,1
+NGO-04,NGOs,E4-LND,4,1
+NGO-04,NGOs,E5-INF,3,4
+NGO-04,NGOs,S1-EQ,3,1
+NGO-04,NGOs,S1-TRN,3,4
+NGO-04,NGOs,S2-FOR,5,3
+NGO-04,NGOs,S3-COM,3,1
+NGO-04,NGOs,S4-PRI,4,1
+NGO-04,NGOs,S4-SAF,3,3
+NGO-04,NGOs,G1-COR,3,2
+NGO-04,NGOs,G1-WHB,3,1
+NGO-04,NGOs,G1-SUP,3,3

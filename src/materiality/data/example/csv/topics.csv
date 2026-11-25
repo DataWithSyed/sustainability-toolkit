@@ -1,0 +1,20 @@
+topic_id,topic,esrs,subtopic,impact_type,scale,scope,irremediability,impact_likelihood,human_rights,fin_magnitude,fin_likelihood,time_horizon,value_chain,description
+E1-MIT,GHG emissions from operations and energy use,E1,Climate change mitigation,actual_negative,4,4,4.0,,False,4,0.9,short,own_operations,Fictional example topic.
+E1-ADA,Physical climate risk to plants,E1,Climate change adaptation,potential_negative,3,2,3.0,0.5,False,4,0.6,long,own_operations,Fictional example topic.
+E1-ENE,Energy consumption and efficiency,E1,Energy,actual_negative,3,3,2.0,,False,4,0.8,short,own_operations,Fictional example topic.
+E2-AIR,Air emissions from coating lines,E2,Pollution of air,actual_negative,3,2,2.0,,False,2,0.5,medium,own_operations,Fictional example topic.
+E2-SOC,Substances of concern in products,E2,Substances of concern,potential_negative,4,3,3.0,0.4,False,3,0.6,medium,downstream,Fictional example topic.
+E3-WAT,Water withdrawal in water-stressed sites,E3,Water,actual_negative,3,2,3.0,,False,2,0.4,medium,own_operations,Fictional example topic.
+E4-LND,Land use and biodiversity near sites,E4,Direct impact drivers of biodiversity loss,potential_negative,2,2,4.0,0.3,False,1,0.3,long,own_operations,Fictional example topic.
+E5-INF,Virgin metal and plastic inputs,E5,"Resources inflows, including resource use",actual_negative,3,4,3.0,,False,3,0.7,medium,upstream,Fictional example topic.
+E5-WST,Production waste and scrap,E5,Waste,actual_negative,2,2,2.0,,False,2,0.6,short,own_operations,Fictional example topic.
+S1-HS,Occupational health and safety,S1,Working conditions,potential_negative,5,3,5.0,0.4,True,3,0.5,short,own_operations,Fictional example topic.
+S1-EQ,Gender equality and equal pay,S1,Equal treatment and opportunities for all,actual_negative,3,3,2.0,,False,2,0.5,medium,own_operations,Fictional example topic.
+S1-TRN,Training and skills development,S1,Equal treatment and opportunities for all,actual_positive,3,3,,,False,3,0.6,medium,own_operations,Fictional example topic.
+S2-FOR,Forced labour risk in raw-material supply,S2,Other work-related rights,potential_negative,5,3,5.0,0.2,True,3,0.4,medium,upstream,Fictional example topic.
+S3-COM,"Local community nuisance (noise, traffic)",S3,"Communities' economic, social and cultural rights",actual_negative,2,2,1.0,,False,1,0.4,short,own_operations,Fictional example topic.
+S4-PRI,Customer data privacy,S4,Information-related impacts for consumers and/or end-users,potential_negative,3,3,2.0,0.3,False,3,0.4,short,downstream,Fictional example topic.
+S4-SAF,Product safety for end-users,S4,Personal safety of consumers and/or end-users,potential_negative,4,3,4.0,0.2,False,5,0.4,short,downstream,Fictional example topic.
+G1-COR,Corruption and bribery,G1,Corruption and bribery,potential_negative,3,2,2.0,0.2,False,4,0.3,medium,own_operations,Fictional example topic.
+G1-WHB,Protection of whistle-blowers,G1,Protection of whistle-blowers,potential_negative,2,2,2.0,0.3,False,2,0.3,medium,own_operations,Fictional example topic.
+G1-SUP,Supplier relationships and payment practices,G1,Management of relationships with suppliers including payment practices,actual_negative,2,3,1.0,,False,2,0.5,short,upstream,Fictional example topic.
