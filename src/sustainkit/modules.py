@@ -4,7 +4,7 @@ MODULES = [
     # name, status, summary
     ("materiality", "available", "Double materiality assessment, stakeholder survey weighting, matrix plots"),
     ("ghg", "available", "Scope 1 and 2 inventory with UK Government 2025 emission factors"),
-    ("stakeholders", "planned", "Stakeholder mapping (influence x interest), engagement and communication plans"),
+    ("stakeholders", "available", "Stakeholder register, influence x interest map, engagement plan, survey weights"),
     ("kpis", "planned", "KPI library, multi-year E/S/G data logs, year-on-year change, targets"),
     ("energy", "planned", "Energy audit: baseline, saving measures, payback/NPV, abatement cost curve"),
     ("water", "planned", "Water balance, intensity metrics and practice checklist scoring"),

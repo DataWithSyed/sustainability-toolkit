@@ -1,0 +1,16 @@
+stakeholder,group,category,influence,interest,owner,channel,last_engaged,notes
+Works council,Employees,affected,4,5,HR director,monthly meeting,2026-11-03,FICTIONAL
+Production shift staff,Employees,affected,2,4,Plant manager,toolbox talks,2026-09-15,FICTIONAL
+Office staff,Employees,affected,2,3,HR director,intranet survey,2026-06-30,FICTIONAL
+Key account A (automotive OEM),Customers,both,5,4,Sales director,supplier review,2026-10-20,FICTIONAL
+Distributors,Customers,user,3,2,Sales director,annual meeting,2026-03-12,FICTIONAL
+Main shareholder,Investors,user,5,4,CFO,board meeting,2026-11-10,FICTIONAL
+House bank (lender),Investors,user,4,3,CFO,covenant review,2026-07-01,FICTIONAL
+Steel supplier,Suppliers,both,3,3,Procurement lead,supplier audit,2026-05-20,FICTIONAL
+Logistics provider,Suppliers,both,2,2,Procurement lead,quarterly review,,FICTIONAL - never formally engaged
+Packaging supplier,Suppliers,both,2,3,Procurement lead,email,2026-08-05,FICTIONAL
+Neighbourhood association,Local community,affected,2,5,Plant manager,open day,2026-04-18,FICTIONAL
+Municipal council,Local community,user,4,3,Managing director,meeting,2026-02-10,FICTIONAL
+Local school,Local community,affected,1,3,HR director,apprenticeship fair,2026-10-01,FICTIONAL
+River protection NGO,NGOs,affected,3,5,EHS manager,site visit,2026-09-01,FICTIONAL
+Industry association,NGOs,user,3,2,Managing director,working group,2026-06-12,FICTIONAL

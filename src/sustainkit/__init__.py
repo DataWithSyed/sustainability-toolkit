@@ -6,4 +6,4 @@ Modules (see ``sustainkit modules``):
 * :mod:`sustainkit.ghg` - Scope 1 and 2 GHG inventory with sourced factors
 """
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"

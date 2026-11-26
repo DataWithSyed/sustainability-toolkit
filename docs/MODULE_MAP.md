@@ -20,8 +20,8 @@ template is reproduced here.)
 | ESG governance questions | `governance` | planned |
 | Responsible-product checklist | `checklists` | planned |
 | Office / site green action plan, initiative tracker | `actions` | planned |
-| Community engagement strategy | `stakeholders` | planned |
-| Stakeholder communication plan | `stakeholders` | planned |
+| Community engagement strategy | `stakeholders` | available (register, map, engagement status) |
+| Stakeholder communication plan | `stakeholders` | planned (roadmap 16) |
 | ESG trend analysis | `risk` | planned |
 | Regulatory and stakeholder watchlist | `regwatch` | planned |
 | Sustainability-report checklist | `disclosure` | planned |

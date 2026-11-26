@@ -22,10 +22,10 @@ in issues. Planned modules are listed in the README.
 13. Survey importers (wide format, Google/Microsoft Forms exports) and quality checks.
 14. Rule-based (LLM-free) mapping of free-text topics to ESRS topics.
 
-## stakeholders
-15. Stakeholder register and influence x interest map (plot + quadrant strategies).
-16. Engagement plan and communication plan tables with schedule export.
-17. Link stakeholder groups to materiality survey weights.
+## stakeholders (available)
+15. ~~Stakeholder register and influence x interest map (plot + quadrant strategies).~~ Done in 0.3.0.
+16. Engagement plan and communication plan tables with schedule export. (Engagement status and next-due dates done in 0.3.0; communication plan and .ics export open.)
+17. ~~Link stakeholder groups to materiality survey weights.~~ Done in 0.3.0 (`--weights`, `link_survey`).
 
 ## kpis
 18. KPI library (E/S/G) with units, definitions and ESRS/GRI references.

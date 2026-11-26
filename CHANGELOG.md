@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.3.0 - 2026-11-26
+
+- **New module `sustainkit.stakeholders`**: stakeholder register and map.
+  - Register loader (CSV/Excel) with validation that lists every problem (missing columns, duplicates, ratings outside the scale, unknown categories, bad dates).
+  - Influence x interest classification into Manage closely / Keep satisfied / Keep informed / Monitor; cut-off, names and review intervals are documented tool choices.
+  - Optional ESRS 1 para 22-23 stakeholder category (affected stakeholders, users of sustainability statements, both).
+  - Engagement plan: next due date from last engagement and the strategy interval (or a per-row interval), status overdue / due soon / ok / never engaged.
+  - Group weights for the materiality survey (`salience`, `influence`, `interest`, `mean`, `equal`; mean over groups = 1; mean not sum, so head-count does not add weight) and a group-name check against a survey.
+  - Map chart (PNG), Markdown/CSV export, `sustainkit stakeholders map|example`, fictional example register for Example Manufacturing Co. (15 stakeholders, the 6 survey groups).
+- `sustainkit modules` now lists stakeholders as available. 8 new tests (72 in total).
+
 ## 0.2.0 - 2026-11-25
 
 The project is now **sustainkit**, a broader sustainability management toolkit

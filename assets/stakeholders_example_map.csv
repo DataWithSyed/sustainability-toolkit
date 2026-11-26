@@ -1,0 +1,16 @@
+stakeholder,group,category,influence,interest,salience,strategy,owner,channel,last_engaged,frequency_days,next_due,engagement_status,notes
+Works council,Employees,affected,4.0,5.0,20.0,Manage closely,HR director,monthly meeting,2026-11-03,30.0,2026-12-03,due soon,FICTIONAL
+Production shift staff,Employees,affected,2.0,4.0,8.0,Keep informed,Plant manager,toolbox talks,2026-09-15,90.0,2026-12-14,ok,FICTIONAL
+Office staff,Employees,affected,2.0,3.0,6.0,Keep informed,HR director,intranet survey,2026-06-30,90.0,2026-09-28,overdue,FICTIONAL
+Key account A (automotive OEM),Customers,both,5.0,4.0,20.0,Manage closely,Sales director,supplier review,2026-10-20,30.0,2026-11-19,overdue,FICTIONAL
+Distributors,Customers,user,3.0,2.0,6.0,Keep satisfied,Sales director,annual meeting,2026-03-12,90.0,2026-06-10,overdue,FICTIONAL
+Main shareholder,Investors,user,5.0,4.0,20.0,Manage closely,CFO,board meeting,2026-11-10,30.0,2026-12-10,due soon,FICTIONAL
+House bank (lender),Investors,user,4.0,3.0,12.0,Manage closely,CFO,covenant review,2026-07-01,30.0,2026-07-31,overdue,FICTIONAL
+Steel supplier,Suppliers,both,3.0,3.0,9.0,Manage closely,Procurement lead,supplier audit,2026-05-20,30.0,2026-06-19,overdue,FICTIONAL
+Logistics provider,Suppliers,both,2.0,2.0,4.0,Monitor,Procurement lead,quarterly review,,180.0,,never engaged,FICTIONAL - never formally engaged
+Packaging supplier,Suppliers,both,2.0,3.0,6.0,Keep informed,Procurement lead,email,2026-08-05,90.0,2026-11-03,overdue,FICTIONAL
+Neighbourhood association,Local community,affected,2.0,5.0,10.0,Keep informed,Plant manager,open day,2026-04-18,90.0,2026-07-17,overdue,FICTIONAL
+Municipal council,Local community,user,4.0,3.0,12.0,Manage closely,Managing director,meeting,2026-02-10,30.0,2026-03-12,overdue,FICTIONAL
+Local school,Local community,affected,1.0,3.0,3.0,Keep informed,HR director,apprenticeship fair,2026-10-01,90.0,2026-12-30,ok,FICTIONAL
+River protection NGO,NGOs,affected,3.0,5.0,15.0,Manage closely,EHS manager,site visit,2026-09-01,30.0,2026-10-01,overdue,FICTIONAL
+Industry association,NGOs,user,3.0,2.0,6.0,Keep satisfied,Managing director,working group,2026-06-12,90.0,2026-09-10,overdue,FICTIONAL

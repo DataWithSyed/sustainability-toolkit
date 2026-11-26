@@ -1,7 +1,7 @@
 # sustainability-toolkit (`sustainkit`)
 
 **An open-source Python toolkit for sustainability management: double
-materiality, GHG accounting and, step by step, the rest of a company's
+materiality, GHG accounting, stakeholder mapping and, step by step, the rest of a company's
 sustainability workflow, from data in Excel or CSV to charts and report tables.**
 
 Most sustainability work still lives in disconnected spreadsheets: a
@@ -24,7 +24,7 @@ Manufacturing Co." does not exist). Only the GHG emission factors are real.*
 |---|---|---|
 | [`materiality`](docs/MATERIALITY.md) | **available** (v0.1) | Double materiality (ESRS 1 impact + financial), stakeholder survey weighting, thresholds, matrix PNG + interactive HTML, classic two-axis sheets |
 | [`ghg`](docs/GHG.md) | **available** (v0.2) | Scope 1 and 2 inventory with the UK Government 2025 conversion factors (970 factors bundled), CO2/CH4/N2O split, location- and market-based Scope 2, biogenic CO2 kept outside the scopes |
-| `stakeholders` | planned | Stakeholder mapping (influence x interest), engagement and communication plans |
+| [`stakeholders`](docs/STAKEHOLDERS.md) | **available** (v0.3) | Stakeholder register with validation, influence x interest map and strategies, ESRS 1 affected/user categories, engagement plan (overdue / due soon), group weights for the materiality survey |
 | `kpis` | planned | KPI library, multi-year E/S/G data logs, year-on-year change, targets |
 | `energy` | planned | Energy audit: baseline, saving measures, payback/NPV, abatement cost curve |
 | `water` | planned | Water balance, intensity metrics, practice scoring |
@@ -105,6 +105,21 @@ print(inv.gases())            # CO2 / CH4 / N2O split
 plot_breakdown(inv, "ghg.png", by="level2")
 ```
 
+### Stakeholder map and survey weights
+
+```bash
+sustainkit stakeholders example stakeholders.csv     # fictional example register
+sustainkit stakeholders map stakeholders.csv --as-of 2026-11-26 --chart map.png --markdown map.md --weights weights.csv
+```
+
+A register is one row per stakeholder: `stakeholder, group, influence, interest`, plus optional
+`category` (affected / user / both, ESRS 1 para 22), `owner, channel, last_engaged, frequency_days, notes`.
+The command classifies each stakeholder (Manage closely / Keep satisfied / Keep informed / Monitor),
+flags overdue engagement and writes `weights.csv` for the materiality survey.
+Fictional example: 7 / 2 / 5 / 1 stakeholders per quadrant, 10 of 15 overdue as of 2026-11-26.
+
+![Stakeholder map, fictional example](assets/stakeholders_example_map.png)
+
 ### Double materiality
 
 ```bash
@@ -147,7 +162,9 @@ Upgrading from `materiality-matrix` 0.1? `import materiality` and the
 - GRI 3: Material Topics 2021.
 - EFRAG Knowledge Hub, simplified ESRS 1 (version labelled 2026-09-21 Official Journal; Omnibus I Directive (EU) 2026/470). <https://knowledgehub.efrag.org/eng/interactive/simplified-esrs/esrs-1/2026-09-21-official-journal>
 
-Module-level method notes: [docs/MATERIALITY.md](docs/MATERIALITY.md), [docs/GHG.md](docs/GHG.md).
+- Mendelow, A. L. (1981). Environmental Scanning: The Impact of the Stakeholder Concept. *Proceedings of the Second International Conference on Information Systems (ICIS 1981)*. <https://aisel.aisnet.org/icis1981/20/> (origin of the power grid; the influence x interest variant is a later textbook adaptation).
+
+Module-level method notes: [docs/MATERIALITY.md](docs/MATERIALITY.md), [docs/GHG.md](docs/GHG.md), [docs/STAKEHOLDERS.md](docs/STAKEHOLDERS.md).
 
 ## Contributing
 
