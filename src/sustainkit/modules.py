@@ -5,7 +5,7 @@ MODULES = [
     ("materiality", "available", "Double materiality assessment, stakeholder survey weighting, matrix plots"),
     ("ghg", "available", "Scope 1 and 2 inventory with UK Government 2025 emission factors"),
     ("stakeholders", "available", "Stakeholder register, influence x interest map, engagement plan, survey weights"),
-    ("kpis", "planned", "KPI library, multi-year E/S/G data logs, year-on-year change, targets"),
+    ("kpis", "available", "KPI library (ESRS/GRI references), multi-year E/S/G data log, year-on-year change, charts"),
     ("energy", "planned", "Energy audit: baseline, saving measures, payback/NPV, abatement cost curve"),
     ("water", "planned", "Water balance, intensity metrics and practice checklist scoring"),
     ("circularity", "planned", "Circular economy self-assessment across the product life cycle"),

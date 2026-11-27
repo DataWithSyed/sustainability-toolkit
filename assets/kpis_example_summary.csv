@@ -1,0 +1,23 @@
+kpi_id,name,pillar,site,unit,years,n_years,latest_year,latest,change_text,status,cagr,esrs,gri,flags,derived
+energy_total_mwh,Total energy consumption,E,Entity,MWh,2022-2025,4,2025,4380,-230.0 (-5.0%),improved,-0.0334059,E1-5,GRI 302-1,,False
+energy_renewable_share_pct,Share of renewable energy in total energy,E,Entity,%,2022-2025,4,2025,34.5,+3.5 pp (+11.3%),improved,,E1-5,GRI 302-1,check data 2024,False
+ghg_scope1_t,Gross Scope 1 GHG emissions,E,Entity,t CO2e,2022-2025,4,2025,392.36,-18.2 (-4.4%),improved,-0.048313,E1-6,GRI 305-1,,False
+ghg_scope2_lb_t,Gross location-based Scope 2 GHG emissions,E,Entity,t CO2e,2022-2025,4,2025,486.75,-29.1 (-5.7%),improved,-0.0665205,E1-6,GRI 305-2,,False
+water_withdrawal_m3,Total water withdrawal,E,Entity,m3,2022-2025,4,2025,19100,-700.0 (-3.5%),improved,-0.0371916,,GRI 303-3,,False
+water_consumption_m3,Total water consumption,E,Entity,m3,2022-2025,3,2025,5610,-140.0 (-2.4%),improved,-0.0327834,E3-4,GRI 303-5,gap 2023,False
+waste_total_t,Total waste generated,E,Entity,t,2022-2025,4,2025,287,-18.0 (-5.9%),improved,-0.0274564,E5-5,GRI 306-3,,False
+waste_hazardous_t,Hazardous waste generated,E,Entity,t,2022-2025,4,2025,15.1,-6.80 (-31.1%),improved,0.0206955,E5-5,GRI 306-3,check data 2024; check data 2025,False
+waste_diverted_share_pct,Share of waste diverted from disposal,E,Entity,%,2022-2025,4,2025,70.2,+4.2 pp (+6.4%),improved,,E5-5,GRI 306-4,,False
+employees_headcount,Total employees (headcount),S,Entity,persons,2022-2025,4,2025,438,7.00 (+1.6%),up,0.0222648,S1-6,GRI 2-7,,False
+women_management_share_pct,Share of women in top management,S,Entity,%,2022-2025,4,2025,27.3,+2.3 pp (+9.2%),up,,S1-9,GRI 405-1,,False
+training_hours_per_employee,Average training hours per employee,S,Entity,h/employee,2022-2025,4,2025,17.4,-0.60 (-3.3%),worsened,0.0626586,S1-13,GRI 404-1,,False
+recordable_injuries,Recordable work-related injuries,S,Entity,count,2022-2025,4,2025,5,-3.00 (-37.5%),improved,-0.177929,S1-14,GRI 403-9,check data 2025,False
+hours_worked,Hours worked,S,Entity,h,2022-2025,4,2025,731000,"7,000 (+1.0%)",up,0.0194269,S1-14,GRI 403-9,,False
+gender_pay_gap_pct,Gender pay gap,S,Entity,%,2022-2025,4,2025,9.4,-0.7 pp (-6.9%),improved,,S1-16,GRI 405-2,,False
+corruption_incidents,Confirmed incidents of corruption or bribery,G,Entity,count,2022-2025,4,2025,0,0.00,no change,,G1-4,GRI 205-3,,False
+anticorruption_training_share_pct,Share of at-risk functions trained on anti-corruption,G,Entity,%,2022-2025,4,2025,93,+5.0 pp (+5.7%),improved,,G1-3,GRI 205-2,,False
+payments_on_terms_share_pct,Share of payments aligned with standard payment terms,G,Entity,%,2022-2025,4,2025,89.1,+3.9 pp (+4.6%),improved,,G1-6,,,False
+revenue_meur,Net revenue,G,Entity,EUR m,2022-2025,4,2025,66.5,3.50 (+5.6%),up,0.0442463,,,,False
+ghg_intensity_s12_t_per_meur,GHG intensity (Scope 1 + 2 location-based) per net revenue,E,Entity,t CO2e/EUR m,2022-2025,4,2025,13.2197,-1.49 (-10.1%),improved,-0.0984575,E1-6,GRI 305-4,,True
+energy_intensity_mwh_per_meur,Energy intensity per net revenue,E,Entity,MWh/EUR m,2022-2025,4,2025,65.8647,-7.31 (-10.0%),improved,-0.074362,E1-5,GRI 302-3,,True
+trir,Total recordable injury rate (per 1 000 000 hours),S,Entity,per 1e6 h,2022-2025,4,2025,6.83995,-4.21 (-38.1%),improved,-0.193595,S1-14,GRI 403-9,check data 2025,True

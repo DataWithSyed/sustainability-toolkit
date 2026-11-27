@@ -18,6 +18,7 @@ def main(argv: list[str] | None = None) -> int:
         return mat_main(argv[1:])
 
     from sustainkit.ghg.cli import InventoryError, add_parser as add_ghg
+    from sustainkit.kpis.cli import KPILogError, add_parser as add_kpis
     from sustainkit.stakeholders.cli import RegisterError, add_parser as add_stakeholders
 
     p = argparse.ArgumentParser(prog="sustainkit", description="Sustainability management toolkit.")
@@ -26,12 +27,13 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("materiality", help="double materiality (run `sustainkit materiality -h`)")
     add_ghg(sub)
     add_stakeholders(sub)
+    add_kpis(sub)
     m = sub.add_parser("modules", help="list toolkit modules and their status")
     m.set_defaults(func=lambda a: _modules())
     args = p.parse_args(argv)
     try:
         return args.func(args)
-    except (InventoryError, RegisterError) as exc:
+    except (InventoryError, RegisterError, KPILogError) as exc:
         print(str(exc), file=sys.stderr)
         return 2
 

@@ -1,0 +1,76 @@
+kpi_id,year,value,unit,source
+energy_total_mwh,2022,4850,MWh,FICTIONAL example
+energy_total_mwh,2023,4720,MWh,FICTIONAL example
+energy_total_mwh,2024,4610,MWh,FICTIONAL example
+energy_total_mwh,2025,4380,MWh,FICTIONAL example
+energy_renewable_share_pct,2022,18.0,%,FICTIONAL example
+energy_renewable_share_pct,2023,22.5,%,FICTIONAL example
+energy_renewable_share_pct,2024,31.0,%,FICTIONAL example
+energy_renewable_share_pct,2025,34.5,%,FICTIONAL example
+ghg_scope1_t,2022,455.2,t CO2e,FICTIONAL example
+ghg_scope1_t,2023,431.8,t CO2e,FICTIONAL example
+ghg_scope1_t,2024,410.6,t CO2e,FICTIONAL example
+ghg_scope1_t,2025,392.36,t CO2e,FICTIONAL example (2025 Scope 1/2 = sustainkit ghg example)
+ghg_scope2_lb_t,2022,598.4,t CO2e,FICTIONAL example
+ghg_scope2_lb_t,2023,560.1,t CO2e,FICTIONAL example
+ghg_scope2_lb_t,2024,515.9,t CO2e,FICTIONAL example
+ghg_scope2_lb_t,2025,486.75,t CO2e,FICTIONAL example (2025 Scope 1/2 = sustainkit ghg example)
+water_withdrawal_m3,2022,21400,m3,FICTIONAL example
+water_withdrawal_m3,2023,20950,m3,FICTIONAL example
+water_withdrawal_m3,2024,19800,m3,FICTIONAL example
+water_withdrawal_m3,2025,19100,m3,FICTIONAL example
+water_consumption_m3,2022,6200,m3,FICTIONAL example
+water_consumption_m3,2024,5750,m3,FICTIONAL example
+water_consumption_m3,2025,5610,m3,FICTIONAL example
+waste_total_t,2022,312,t,FICTIONAL example
+waste_total_t,2023,298,t,FICTIONAL example
+waste_total_t,2024,305,t,FICTIONAL example
+waste_total_t,2025,287,t,FICTIONAL example
+waste_hazardous_t,2022,14.2,t,FICTIONAL example
+waste_hazardous_t,2023,13.8,t,FICTIONAL example
+waste_hazardous_t,2024,21.9,t,FICTIONAL example
+waste_hazardous_t,2025,15.1,t,FICTIONAL example
+waste_diverted_share_pct,2022,61.0,%,FICTIONAL example
+waste_diverted_share_pct,2023,64.5,%,FICTIONAL example
+waste_diverted_share_pct,2024,66.0,%,FICTIONAL example
+waste_diverted_share_pct,2025,70.2,%,FICTIONAL example
+employees_headcount,2022,410,persons,FICTIONAL example
+employees_headcount,2023,425,persons,FICTIONAL example
+employees_headcount,2024,431,persons,FICTIONAL example
+employees_headcount,2025,438,persons,FICTIONAL example
+women_management_share_pct,2022,22.2,%,FICTIONAL example
+women_management_share_pct,2023,25.0,%,FICTIONAL example
+women_management_share_pct,2024,25.0,%,FICTIONAL example
+women_management_share_pct,2025,27.3,%,FICTIONAL example
+training_hours_per_employee,2022,14.5,h/employee,FICTIONAL example
+training_hours_per_employee,2023,16.2,h/employee,FICTIONAL example
+training_hours_per_employee,2024,18.0,h/employee,FICTIONAL example
+training_hours_per_employee,2025,17.4,h/employee,FICTIONAL example
+recordable_injuries,2022,9,count,FICTIONAL example
+recordable_injuries,2023,7,count,FICTIONAL example
+recordable_injuries,2024,8,count,FICTIONAL example
+recordable_injuries,2025,5,count,FICTIONAL example
+hours_worked,2022,690000,h,FICTIONAL example
+hours_worked,2023,712000,h,FICTIONAL example
+hours_worked,2024,724000,h,FICTIONAL example
+hours_worked,2025,731000,h,FICTIONAL example
+gender_pay_gap_pct,2022,11.8,%,FICTIONAL example
+gender_pay_gap_pct,2023,10.9,%,FICTIONAL example
+gender_pay_gap_pct,2024,10.1,%,FICTIONAL example
+gender_pay_gap_pct,2025,9.4,%,FICTIONAL example
+corruption_incidents,2022,0,count,FICTIONAL example
+corruption_incidents,2023,0,count,FICTIONAL example
+corruption_incidents,2024,0,count,FICTIONAL example
+corruption_incidents,2025,0,count,FICTIONAL example
+anticorruption_training_share_pct,2022,72,%,FICTIONAL example
+anticorruption_training_share_pct,2023,81,%,FICTIONAL example
+anticorruption_training_share_pct,2024,88,%,FICTIONAL example
+anticorruption_training_share_pct,2025,93,%,FICTIONAL example
+payments_on_terms_share_pct,2022,84.0,%,FICTIONAL example
+payments_on_terms_share_pct,2023,86.5,%,FICTIONAL example
+payments_on_terms_share_pct,2024,85.2,%,FICTIONAL example
+payments_on_terms_share_pct,2025,89.1,%,FICTIONAL example
+revenue_meur,2022,58.4,EUR m,FICTIONAL example
+revenue_meur,2023,61.2,EUR m,FICTIONAL example
+revenue_meur,2024,63.0,EUR m,FICTIONAL example
+revenue_meur,2025,66.5,EUR m,FICTIONAL example

@@ -1,7 +1,7 @@
 # sustainability-toolkit (`sustainkit`)
 
 **An open-source Python toolkit for sustainability management: double
-materiality, GHG accounting, stakeholder mapping and, step by step, the rest of a company's
+materiality, GHG accounting, stakeholder mapping, KPI data logs and, step by step, the rest of a company's
 sustainability workflow, from data in Excel or CSV to charts and report tables.**
 
 Most sustainability work still lives in disconnected spreadsheets: a
@@ -25,7 +25,7 @@ Manufacturing Co." does not exist). Only the GHG emission factors are real.*
 | [`materiality`](docs/MATERIALITY.md) | **available** (v0.1) | Double materiality (ESRS 1 impact + financial), stakeholder survey weighting, thresholds, matrix PNG + interactive HTML, classic two-axis sheets |
 | [`ghg`](docs/GHG.md) | **available** (v0.2) | Scope 1 and 2 inventory with the UK Government 2025 conversion factors (970 factors bundled), CO2/CH4/N2O split, location- and market-based Scope 2, biogenic CO2 kept outside the scopes |
 | [`stakeholders`](docs/STAKEHOLDERS.md) | **available** (v0.3) | Stakeholder register with validation, influence x interest map and strategies, ESRS 1 affected/user categories, engagement plan (overdue / due soon), group weights for the materiality survey |
-| `kpis` | planned | KPI library, multi-year E/S/G data logs, year-on-year change, targets |
+| [`kpis`](docs/KPIS.md) | **available** (v0.4) | KPI library (24 E/S/G indicators with ESRS disclosure-requirement and GRI references), multi-year data log (long or wide), validation, derived intensities, year-on-year change with gap and data-check flags, charts |
 | `energy` | planned | Energy audit: baseline, saving measures, payback/NPV, abatement cost curve |
 | `water` | planned | Water balance, intensity metrics, practice scoring |
 | `circularity` | planned | Circular-economy self-assessment across the product life cycle |
@@ -105,6 +105,21 @@ print(inv.gases())            # CO2 / CH4 / N2O split
 plot_breakdown(inv, "ghg.png", by="level2")
 ```
 
+### KPI data log (year-on-year)
+
+```bash
+sustainkit kpis example kpi_log.csv          # fictional 2022-2025 data log
+sustainkit kpis report kpi_log.csv --markdown kpis.md --chart kpis.png
+```
+
+One row per KPI and year (`kpi_id, year, value`, optional `site, unit, source`) or one column per year.
+The report validates the log, computes derived intensities (GHG and energy per EUR m revenue, injury
+rate per 1 000 000 hours), year-on-year change (percentage points for shares), gaps and "check data"
+flags. Fictional example: GHG intensity 13.22 t CO2e per EUR m in 2025 (-10.1 %), water consumption
+incomplete (no 2023 value), hazardous waste flagged in 2024 (+59 %).
+
+![KPI chart, fictional example](assets/kpis_example_chart.png)
+
 ### Stakeholder map and survey weights
 
 ```bash
@@ -162,9 +177,11 @@ Upgrading from `materiality-matrix` 0.1? `import materiality` and the
 - GRI 3: Material Topics 2021.
 - EFRAG Knowledge Hub, simplified ESRS 1 (version labelled 2026-09-21 Official Journal; Omnibus I Directive (EU) 2026/470). <https://knowledgehub.efrag.org/eng/interactive/simplified-esrs/esrs-1/2026-09-21-official-journal>
 
+- GRI Standards: GRI 2 (2021), 205 (2016), 302 (2016), 303 (2018), 305 (2016), 306 (2020), 403 (2018), 404 (2016), 405 (2016) (KPI library references).
+
 - Mendelow, A. L. (1981). Environmental Scanning: The Impact of the Stakeholder Concept. *Proceedings of the Second International Conference on Information Systems (ICIS 1981)*. <https://aisel.aisnet.org/icis1981/20/> (origin of the power grid; the influence x interest variant is a later textbook adaptation).
 
-Module-level method notes: [docs/MATERIALITY.md](docs/MATERIALITY.md), [docs/GHG.md](docs/GHG.md), [docs/STAKEHOLDERS.md](docs/STAKEHOLDERS.md).
+Module-level method notes: [docs/MATERIALITY.md](docs/MATERIALITY.md), [docs/GHG.md](docs/GHG.md), [docs/STAKEHOLDERS.md](docs/STAKEHOLDERS.md), [docs/KPIS.md](docs/KPIS.md).
 
 ## Contributing
 

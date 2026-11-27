@@ -9,7 +9,7 @@ template is reproduced here.)
 |---|---|---|
 | Materiality assessment / matrix | `materiality` | available |
 | GHG emissions (Scope 1, 2, later 3) | `ghg` | available (Scope 1-2) |
-| Environmental, social and governance data logs, year-on-year change | `kpis` | planned |
+| Environmental, social and governance data logs, year-on-year change | `kpis` | available (library, data log, YoY) |
 | KPI selection worksheet | `kpis` | planned |
 | Energy audit and renewable-transition ideas | `energy` | planned |
 | Water-management practices | `water` | planned |

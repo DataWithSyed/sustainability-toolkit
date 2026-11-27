@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 - 2026-11-27
+
+- **New module `sustainkit.kpis`**: KPI library and multi-year E/S/G data log.
+  - Bundled library of 24 KPIs (unit, pillar, direction, kind, allowed range) with ESRS Set 1 disclosure-requirement and GRI disclosure references; three derived ratios (GHG intensity, energy intensity, TRIR per 1 000 000 hours). Custom or extra KPI files supported. Simplified-ESRS mapping reported as not done yet.
+  - Data log loader for long or wide CSV/Excel; validation that lists every problem (unknown or derived KPIs entered, bad years, non-numeric values, duplicates, out-of-range values, unit mismatch; no silent unit conversion).
+  - Report: year-on-year change only between consecutive years (gaps reported as incomplete), percentage points for shares, direction-aware status, CAGR, "check data" flag above a 25 % change (tool choice), derived KPIs only when all inputs exist, "All sites" totals for additive KPIs only.
+  - Small-multiple chart (PNG), Markdown/CSV exports, `sustainkit kpis library|report|example`, fictional 2022-2025 example log for Example Manufacturing Co.
+- `sustainkit modules` lists kpis as available. 8 new tests (80 in total).
+
 ## 0.3.0 - 2026-11-26
 
 - **New module `sustainkit.stakeholders`**: stakeholder register and map.

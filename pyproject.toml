@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sustainkit"
-version = "0.3.0"
-description = "An open-source Python sustainability management toolkit: double materiality, GHG accounting (Scope 1 and 2), stakeholder mapping and more."
+version = "0.4.0"
+description = "An open-source Python sustainability management toolkit: double materiality, GHG accounting (Scope 1 and 2), stakeholder mapping, KPI data logs and more."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Syed (DataWithSyed)" }]
-keywords = ["sustainability", "ghg", "carbon-accounting", "scope-1", "scope-2", "materiality", "double-materiality", "stakeholder-mapping", "csrd", "esrs", "esg", "gri", "matrix"]
+keywords = ["sustainability", "ghg", "carbon-accounting", "scope-1", "scope-2", "materiality", "double-materiality", "stakeholder-mapping", "kpi", "csrd", "esrs", "esg", "gri", "matrix"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",
@@ -40,6 +40,7 @@ where = ["src"]
 "sustainkit.materiality" = ["data/example/*.xlsx", "data/example/*.csv", "data/example/*.md", "data/example/csv/*.csv"]
 "sustainkit.ghg" = ["data/*.csv", "data/example/*.csv", "data/example/*.md"]
 "sustainkit.stakeholders" = ["data/example/*.csv", "data/example/*.md"]
+"sustainkit.kpis" = ["data/*.csv", "data/example/*.csv", "data/example/*.md"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -27,9 +27,9 @@ in issues. Planned modules are listed in the README.
 16. Engagement plan and communication plan tables with schedule export. (Engagement status and next-due dates done in 0.3.0; communication plan and .ics export open.)
 17. ~~Link stakeholder groups to materiality survey weights.~~ Done in 0.3.0 (`--weights`, `link_survey`).
 
-## kpis
-18. KPI library (E/S/G) with units, definitions and ESRS/GRI references.
-19. Multi-year data log with year-on-year change, validation and charts.
+## kpis (available)
+18. ~~KPI library (E/S/G) with units, definitions and ESRS/GRI references.~~ Done in 0.4.0 (24 KPIs; simplified-ESRS mapping open).
+19. ~~Multi-year data log with year-on-year change, validation and charts.~~ Done in 0.4.0.
 20. Targets and trajectories (linear and science-based-style paths, labelled as tool choices).
 21. KPI selection scoring (relevance, measurability, data availability).
 
