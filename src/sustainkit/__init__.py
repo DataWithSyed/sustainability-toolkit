@@ -8,4 +8,4 @@ Modules (see ``sustainkit modules``):
 * :mod:`sustainkit.kpis` - KPI library and multi-year E/S/G data log
 """
 
-__version__ = "0.4.0"
+__version__ = "0.5.0"

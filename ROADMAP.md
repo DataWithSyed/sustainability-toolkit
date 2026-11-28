@@ -4,10 +4,10 @@
 with tests and docs. Order may change with feedback; suggestions are welcome
 in issues. Planned modules are listed in the README.
 
-## ghg (available: Scope 1 and 2)
+## ghg (available: Scope 1 and 2; Scope 3 categories 3, 6, 7)
 1. Scope 3 categories 1-15 scaffolding with spend- and activity-based methods (sourced factors only).
-2. Scope 3 business travel and employee commuting (UK 2025 Scope 3 factors).
-3. Well-to-tank and transmission-and-distribution factors (UK 2025).
+2. ~~Scope 3 business travel and employee commuting (UK 2025 Scope 3 factors).~~ Done in 0.5.0 (incl. hotels, homeworking, commuting survey).
+3. ~~Well-to-tank and transmission-and-distribution factors (UK 2025).~~ Done in 0.5.0 (category 3 derived from the Scope 1-2 inventory).
 4. Multi-year factor sets (2023-2025) and automatic year selection by period.
 5. Intensity metrics (t CO2e per revenue, FTE, unit produced) and base-year recalculation.
 6. Data-quality scores per activity row and an uncertainty range for totals.

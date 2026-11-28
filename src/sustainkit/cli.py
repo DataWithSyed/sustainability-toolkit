@@ -18,6 +18,7 @@ def main(argv: list[str] | None = None) -> int:
         return mat_main(argv[1:])
 
     from sustainkit.ghg.cli import InventoryError, add_parser as add_ghg
+    from sustainkit.ghg.scope3 import Scope3Error
     from sustainkit.kpis.cli import KPILogError, add_parser as add_kpis
     from sustainkit.stakeholders.cli import RegisterError, add_parser as add_stakeholders
 
@@ -33,7 +34,7 @@ def main(argv: list[str] | None = None) -> int:
     args = p.parse_args(argv)
     try:
         return args.func(args)
-    except (InventoryError, RegisterError, KPILogError) as exc:
+    except (InventoryError, RegisterError, KPILogError, Scope3Error) as exc:
         print(str(exc), file=sys.stderr)
         return 2
 

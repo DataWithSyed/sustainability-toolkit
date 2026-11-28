@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.5.0 - 2026-11-28
+
+- **New `sustainkit.ghg.scope3`**: Scope 3 categories 3, 6 and 7 (GHG Protocol Scope 3 Standard 2011, Technical Guidance 2013).
+  - Bundled 967 Scope 3 factors from the UK Government GHG Conversion Factors 2025 flat file v1 (OGL v3.0): business travel air/land/sea, hotel stay, homeworking, T&D and well-to-tank (WTT). The rebuild script now writes both tables; the Scope 1-2 table is unchanged byte for byte.
+  - Category 3 derived from a Scope 1-2 inventory: (a) WTT of Scope 1 fuels, (b) WTT of purchased electricity/heat, (c) T&D losses and their WTT (incl. district-heat distribution loss); rows without a published upstream factor make the category incomplete; refrigerants skipped.
+  - Category 6/7 trip rows with WTT per mode and T&D for electric cars; `travellers` multiplies per-passenger units only; hotel nights by country; homeworking per FTE hour; commuting survey converter (employees x one-way km x 2 x office days, car-sharing occupancy; no default office days).
+  - Flights: no extra distance uplift (already in the UK factors, methodology paras 8.38-8.39); Without-RF factors in the inventory, With-RF figure as a memo item (tool choice); `haversine_km` helper.
+  - Summary/Markdown/CSV, Scope 1-2-3 stacked chart, `sustainkit ghg scope3|scope3-example`, fictional trips and commuting survey for Example Manufacturing Co. (cat 3 263.31 t, cat 6 18.09 t, cat 7 491.74 t).
+- New doc docs/GHG_SCOPE3.md. 9 new tests (89 in total).
+
 ## 0.4.0 - 2026-11-27
 
 - **New module `sustainkit.kpis`**: KPI library and multi-year E/S/G data log.

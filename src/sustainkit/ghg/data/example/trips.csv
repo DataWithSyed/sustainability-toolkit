@@ -1,0 +1,13 @@
+id,category,site,period,activity,quantity,unit,level2,level4,variant,travellers,note
+T1,business travel,Head office,2025,"Short-haul, to/from UK",1450,km,,Economy class,,6,FICTIONAL example - trade fair trips to Germany (great-circle km per traveller)
+T2,business travel,Head office,2025,"Long-haul, to/from UK",6900,km,,Business class,,2,FICTIONAL example - customer visit North America (great-circle km per traveller)
+T3,business travel,Head office,2025,"Long-haul, to/from UK",5550,km,,Economy class,,4,FICTIONAL example - supplier audits India (great-circle km per traveller)
+T5,business travel,Head office,2025,National rail,38500,passenger.km,,,,,FICTIONAL example - UK rail from expense system
+T6,business travel,Plant North,2025,Medium car,24000,km,Cars (by size),,Petrol,,FICTIONAL example - grey fleet mileage claims
+T7,business travel,Plant South,2025,Medium car,9000,km,Cars (by size),,Battery Electric Vehicle,,FICTIONAL example - grey fleet mileage claims (EV)
+T8,business travel,Head office,2025,Regular taxi,2100,km,,,,,FICTIONAL example - taxi receipts (km estimated)
+T9,business travel,Head office,2025,Average (all passenger),1200,km,,,,2,FICTIONAL example - ferry to Ireland
+T10,business travel,Head office,2025,Germany,48,nights,,,,,FICTIONAL example - hotel nights trade fair
+T11,business travel,Head office,2025,United States,10,nights,,,,,FICTIONAL example - hotel nights customer visit
+T12,business travel,Head office,2025,India,20,nights,,,,,FICTIONAL example - hotel nights supplier audits
+T13,business travel,Head office,2025,UK,95,nights,,,,,FICTIONAL example - UK hotel nights

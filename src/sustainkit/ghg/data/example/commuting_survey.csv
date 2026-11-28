@@ -1,0 +1,10 @@
+site,activity,level2,variant,employees,one_way_km,days_per_year,occupancy,note
+Plant North,Medium car,Cars (by size),Petrol,120,18,205,,FICTIONAL example survey - drive alone
+Plant North,Medium car,Cars (by size),Diesel,45,22,205,,FICTIONAL example survey - drive alone
+Plant North,Medium car,Cars (by size),Petrol,30,25,205,2,FICTIONAL example survey - car sharing (2 per car)
+Plant North,Small car,Cars (by size),Battery Electric Vehicle,25,15,205,,FICTIONAL example survey - EV
+Plant North,Average local bus,,,40,9,205,,FICTIONAL example survey - bus
+Plant South,Medium car,Cars (by size),Unknown,70,16,205,,FICTIONAL example survey - car (fuel not asked)
+Plant South,National rail,,,18,35,180,,FICTIONAL example survey - train
+Head office,National rail,,,40,42,120,,FICTIONAL example survey - hybrid workers by train
+Head office,Average local bus,,,15,7,120,,FICTIONAL example survey - hybrid workers by bus

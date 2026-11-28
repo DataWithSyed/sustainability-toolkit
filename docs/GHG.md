@@ -1,4 +1,4 @@
-# `sustainkit.ghg`: Scope 1 and 2 inventory
+# `sustainkit.ghg`: Scope 1 and 2 inventory (Scope 3: see GHG_SCOPE3.md)
 
 ## What it does
 
@@ -21,7 +21,9 @@ sums the results by scope:
   such factor exists for that unit (e.g. kWh on a gross/net CV basis), it is left blank.
 - Where the factor table splits CO2, CH4 and N2O, the split is carried through (`inv.gases()`).
 
-Scope 3 is not covered yet (see [ROADMAP](../ROADMAP.md)).
+Scope 3 categories 3 (fuel- and energy-related: WTT and T&D), 6 (business travel)
+and 7 (employee commuting) are covered by `sustainkit.ghg.scope3`, added in 0.5.0:
+see [GHG_SCOPE3.md](GHG_SCOPE3.md). Other Scope 3 categories are on the [ROADMAP](../ROADMAP.md).
 
 ## Factor table
 
